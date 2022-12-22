@@ -1,0 +1,75 @@
+[
+    {
+        "_id": 0,
+        "image": "https://i.ibb.co/QDQZSsb/html.png",
+        "name": "HTML5",
+        "experience": "3 years of Experience"
+    },
+    {
+        "_id": 1,
+        "image": "https://i.ibb.co/Jc7FtqV/css.png",
+        "name": "CSS3",
+        "experience": "3 years of Experience"
+    },
+    {
+        "_id": 2,
+        "image": "https://i.ibb.co/rQcNrB4/bootstrap.png",
+        "name": "Bootstrap5",
+        "experience": "2 years of Experience"
+    },
+    {
+        "_id": 3,
+        "image": "https://i.ibb.co/hXCgw10/tailwind.png",
+        "name": "Tailwind CSS",
+        "experience": "1 years of Experience"
+    },
+    {
+        "_id": 4,
+        "image": "https://i.ibb.co/pKj5z6Y/javascript.png",
+        "name": "JavaScript",
+        "experience": "1 years of Experience"
+    },
+    {
+        "_id": 5,
+        "image": "https://i.ibb.co/kJpSTh0/react.png",
+        "name": "React.js",
+        "experience": "6 months of Experience"
+    },
+    {
+        "_id": 6,
+        "image": "https://i.ibb.co/XjC32jT/node.webp",
+        "name": "Node.js",
+        "experience": "6 months of Experience"
+    },
+    {
+        "_id": 7,
+        "image": "https://i.ibb.co/njX8dCS/Express-JS.png",
+        "name": "Express.js",
+        "experience": "6 months of Experience"
+    },
+    {
+        "_id": 8,
+        "image": "https://i.ibb.co/3YxpHfm/mongodb.webp",
+        "name": "MongoDB",
+        "experience": "6 months of Experience"
+    },
+    {
+        "_id": 9,
+        "image": "https://i.ibb.co/WnDNmjK/github.png",
+        "name": "GitHub",
+        "experience": "6 months of Experience"
+    },
+    {
+        "_id": 10,
+        "image": "https://i.ibb.co/44TQ78G/firebase.webp",
+        "name": "Firebase",
+        "experience": "6 months of Experience"
+    },
+    {
+        "_id": 11,
+        "image": "https://i.ibb.co/YRzJzgS/stripe.png",
+        "name": "Payment Gateway",
+        "experience": "4 months of Experience"
+    }
+]
+
