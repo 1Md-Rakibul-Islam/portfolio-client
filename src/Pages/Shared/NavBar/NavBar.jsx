@@ -7,7 +7,7 @@ import useScrollPosition from "../../../Hooks/useScrollPosition";
 const NavBar = () => {
 
   // const { user, logOut } = useContext(AuthContext);
-  const [userOpen, setUserOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
   const [toggle, setToggle] = useState(false);
   const handleLogOut = () => {
     localStorage.removeItem("CodersStackBox");
@@ -48,17 +48,14 @@ const NavBar = () => {
               {/* {user?.uid ? ( */}
           </ul>
           <div className="">
-                        <button onClick={() => setUserOpen(true)} type="button" className="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" >
-                          <span className="sr-only">Open user menu</span>
-                          <img className="w-8 h-8 rounded-full" src="" alt="user photo" />
-                        </button>
-                          { userOpen && <Dropdown
-                            menuItems={menuItems}
-                          // userOpen={userOpen}
-                          // setUserOpen={setUserOpen}
-                          // user={user}
-                        />}
-                      </div>
+            <button onClick={() => setMenuOpen(
+              (prev) => !prev
+            )} type="button" className="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" >
+              <span className="sr-only">Open user menu</span>
+              <img className="w-8 h-8 rounded-full" src="" alt="user photo" />
+            </button>
+              { menuOpen && <Dropdown menuItems={menuItems}/>}
+          </div>
         </div>
       </div>
     </nav>
