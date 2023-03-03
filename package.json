@@ -24,6 +24,7 @@
     "react-photo-view": "^1.2.3",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.4.2",
+    "react-type-animation": "^2.1.2",
     "swiper": "^8.4.5",
     "typewriter-effect": "^2.19.0"
   },
