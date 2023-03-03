@@ -10,7 +10,7 @@ const Banner = () => {
         <header className='flex justify-between items-center md:flex-row md:gap-0 gap-y-10 flex-col-reverse md:pt-12'>
             <div className="w-full flex flex-row-reverse justify-evenly gap-10">
                 <div className='w-[480px]'>
-                    <h2 className='text-2xl'>HEY THERE !</h2>
+                    <h2 className='text-2xl'>Hello THERE !</h2>
                     <h2 className='text-5xl  my-5' >I am</h2>
                     <div className='text-purple-600'>
                         <TypeAnimation
@@ -31,10 +31,10 @@ const Banner = () => {
                     </div>
                     <div className='mt-16'>
                         {/* <p className='mb-10'>Web Application Developer(MERN)</p> */}
-                        <Link to='/portfolio'><button className='btn btn-secondary mr-5'>PORTFOLIO</button></Link>
-                        <Link to="https://drive.google.com/u/0/uc?id=1KBeOC-FdwRjgRpMK_MLS7cPeGZkY4Dys&export=download" download className='btn btn-outline btn-primary' >
-                            DOWNLOAD RESUMI
-                        </Link>
+                        {/* <Link to='/portfolio'><button className='btn btn-secondary mr-5'>PORTFOLIO</button></Link> */}
+                        <a href="https://drive.google.com/u/0/uc?id=1KBeOC-FdwRjgRpMK_MLS7cPeGZkY4Dys&export=download" download className='px-8 py-3 bg-gradient-to-r from-indigo-800 via-purple-500 to-pink-500 font-semibold rounded-full dark:bg-gray-100 dark:text-gray-800' >
+                            <span className='dark:text-white '>DOWNLOAD RESUMI</span>
+                        </a>
                     </div>
                 </div>
                 <div className=''>
