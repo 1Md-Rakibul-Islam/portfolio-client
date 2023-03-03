@@ -9,14 +9,14 @@ import Skills from "../Skills/Skills";
 const Home = () => {
   return (
     <div className="">
-      <Banner></Banner>
-      <Skills></Skills>
-      <Projects></Projects>
+      <Banner />
+      <Skills />
+      <Projects />
         <Link className="flex justify-center" to={'/portfolio'}>
           <button className="mx-auto btn btn-outline btn-md btn-primary mt-5">See More</button>
         </Link>
-      <AboutMe></AboutMe>
-      <ContactUs></ContactUs>
+      <AboutMe />
+      <ContactUs />
     </div>
   );
 };

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Banner = () => {
     return (
-        <header className='flex justify-between md:flex-row flex-col-reverse'>
+        <header className='flex justify-between items-center md:flex-row flex-col-reverse'>
             <div className="hero-content w-full flex flex-row-reverse justify-evenly">
                 <div className=''>
                     <h2 className='text-lg'>HEY THERE !</h2>
