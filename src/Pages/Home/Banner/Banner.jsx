@@ -1,6 +1,5 @@
 import React from 'react';
-import Typewriter from 'typewriter-effect';
-import portfolioImg from '../../../assets/profile.png';
+import portfolioImg from '../../../assets/profile2.jpg';
 import {FaFacebook, FaLinkedin, FaTwitter, FaInstagram, FaGithub} from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { TypeAnimation } from 'react-type-animation';
@@ -26,7 +25,7 @@ const Banner = () => {
                             wrapper="div"
                             cursor={true}
                             repeat={Infinity}
-                            style={{ fontSize: '1.8rem'}}
+                            style={{ fontSize: '1.9rem'}}
                             />
                     </div>
                     <div className='mt-16'>
@@ -55,11 +54,15 @@ const Banner = () => {
                         <FaTwitter className='text-4xl text-purple-400 mb-2 border border-purple-400 rounded-md p-1 hover:border-blue-600'></FaTwitter>
                     </Link>
                 </div>
+            </div> {/*bg-gradient-to-r from-indigo-800 via-purple-500 to-pink-500*/}
+            <div className="w-[360px] h-[360px] md:w-full md:h-full overflow-hidden  flex items-center justify-evenly rounded-full">
+                <div className='border-b border-gray-200/30 bg-white/20 navmorphism backdrop-blur-xl p-3 md:p-5 rounded-full'>
+                    <img className='w-[320px] h-[320px] md:w-[520px] md:h-[520px] rounded-full' src={portfolioImg} alt="" />
+                </div>
             </div>
-            <div className="w-[260px] h-[260px] md:w-full md:h-full overflow-hidden bg-gradient-to-r from-indigo-800 via-purple-500 to-pink-500 flex justify-center rounded-full md:rounded-l-full md:rounded-r-none ml-8 -mt-10 md:mx-0">
+            {/* <div className="w-[260px] h-[260px] md:w-full md:h-full overflow-hidden bg-gradient-to-r from-indigo-800 via-purple-500 to-pink-500* flex justify-center rounded-full md:rounded-l-full md:rounded-r-none ml-8 -mt-10 md:mx-0">
                 <img className='w-[260px] md:md:w-2/3 md:rounded-none rounded-full' src={portfolioImg} alt="" />
-                {/* <img className='w-[300px] md:w-2/3' src={portfolioImg} alt="" /> */}
-            </div>
+            </div> */}
         </header>
     );
 };

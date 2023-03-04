@@ -13,7 +13,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <section className="my-10 mx-10">
+    <section className="my-10 mx-10 md:mx-40">
       <h2 className="text-4xl text-center my-10 mx-auto text-purple-600">Portfolio</h2>
       {projects.length > 0 ? "" : "No Data Found"}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
