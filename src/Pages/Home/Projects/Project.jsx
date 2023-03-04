@@ -10,30 +10,49 @@ const Project = ({project}) => {
 
     return (
         <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-            <figure className="h-[500px] w-full">
-                <img className="h-full w-full object-top transition-transform duration-500  group-hover:scale-125" src={image} alt="" />
+            <figure className="h-[480px] w-full">
+                <img className="w-full overflow-scroll transition-transform duration-500  group-hover:scale-125" src={image[0]} alt="" />
             </figure>
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/80 group-hover:via-black/80 group-hover:to-black/70"></div>
-            <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+            <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center p-5 transition-all duration-500 group-hover:translate-y-0">
             <div className='flex flex-col justify-center items-center'>
             <h1 className=" text-2xl font-bold text-white mb-5 uppercase">{title}</h1>
-            <div className='mb-16 w-20 h-1 bg-purple-700' />
-            <p><span className='font-bold '>Technologies:</span> {technologies}</p>
-            <div className="card-actions justify-between items-center">
-                <div className='flex gap-4'>
-                    <FaGithub className='text-2xl'></FaGithub>
-                    {
-                        gitHubClient && 
-                        <a href={gitHubClient} target='blank'><span className='underline'>Client</span></a>
-                    }
-                    {
-                        gitHubServer &&
-                        <a href={gitHubServer} target='blank'><span className='underline'>Server</span></a>
-                    }
+            <div className='mb-12 w-20 h-1.5 bg-purple-700' />
+            
+            <div className="w-full h-[200px]">
+                <div className='flex mb-2 rounded-lg justify-center items-center text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 w-36'>
+                    <span className='font-bold px-2 py-1'>Technologies:</span>
+                </div>  
+                <p className=''>{technologies}</p>
+                <div className='flex justify-evenly items-center gap-5 mt-5'>
+                    <div className='flex flex-col justify-center items-center'>
+                        <FaGithub className='text-2xl text-purple-700'></FaGithub>
+                        {
+                            gitHubClient && 
+                            <a href={gitHubClient} target='blank'><span className=''>Client</span></a>
+                        }
+                    </div>
+                    <div className='flex flex-col justify-center items-center'>
+                        <FaGithub className='text-2xl text-purple-700'></FaGithub>
+                        {
+                            gitHubServer &&
+                            <a href={gitHubServer} target='blank'><span className=''>Server</span></a>
+                        }
+                    </div>
+                    <div className='flex flex-col justify-center items-center'>
+                        <FaEye className='text-2xl text-purple-700'></FaEye>
+                        {
+                            liveLink &&
+                            <a href={liveLink} target='blank'><span className=''>Live</span></a>
+                        }
+                    </div>
                 </div>
-                <Link to={`/project/details/${_id}`}>
-                    <button className="btn btn-primary btn-outline">Details</button>
-                </Link>
+                <div className='flex justify-center items-center mt-8'>
+                    <Link to={`/project/details/${_id}`}>
+                        <a className='text-white bg-gradient-to-r from-purple-600 to-blue-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-full text-xl px-5 py-2.5 text-center mr-2 mb-2' href={gitHubClient} target='blank'><span className=''>Details</span></a>
+                    </Link>                    
+                </div>
+
             </div>
             </div>
 
