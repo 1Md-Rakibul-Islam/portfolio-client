@@ -39,7 +39,9 @@ const NavBar = () => {
       } z-30 transition-all mx-auto`}>
         <div className="absolute w-[50%] inset-0 gradient-01" />
         <div className="flex justify-end md:justify-between py-4 ">
-          <img className="hidden md:block w-[35px]" src={brandLogo} alt="" srcset="" />
+          <div className="hidden md:flex items-center gap-4 text-xl text-purple-400">
+            <img className=" w-[35px]" src={brandLogo} alt="" srcset="" /> <span>Rakibul</span>
+          </div>
           
           <ul
             className={`list-none md:flex hidden justify-end items-center flex-1 text-white`}

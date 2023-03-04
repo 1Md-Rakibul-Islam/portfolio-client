@@ -14,7 +14,7 @@ const Project = ({project}) => {
             <img className='' src={image[0]} alt="project" />
         </figure>
         <div className="card-body">
-            <h2 className="card-title">{title} <a href={liveLink} target='blank'><FaEye className='text-2xl text-purple-500'></FaEye></a></h2>
+            <h2 className="card-title">{title} <a href={liveLink} target='blank'><FaEye className='text-2xl text-purple-600'></FaEye></a></h2>
             <p><span className='font-bold'>Technologies:</span> {technologies}</p>
             <div className="card-actions justify-between items-center">
                 <div className='flex gap-4'>

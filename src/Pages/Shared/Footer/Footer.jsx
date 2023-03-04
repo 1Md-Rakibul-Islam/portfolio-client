@@ -4,7 +4,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="footer footer-center rounded-tl-full p-10 bg-base-200 text-base-content rounded">
+    <footer className="footer footer-center p-10 text-base-content">
       <div className="grid grid-flow-col gap-4">
         <a className="link link-hover">Blogs</a>
         <a className="link link-hover">About Us</a>

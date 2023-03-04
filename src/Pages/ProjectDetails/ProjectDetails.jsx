@@ -21,7 +21,7 @@ const ProjectDetails = () => {
 
   return (
     <div className="mx-auto">
-      <h2 className="text-center text-purple-500 my-5 text-4xl">Project Details</h2>
+      <h2 className="text-center text-purple-600 my-5 text-4xl">Project Details</h2>
       <div className="hero my-10 bg-base-200 rounded-md">
         <div className="hero-content flex flex-col justify-between items-start lg:flex-row">
           <div className="">

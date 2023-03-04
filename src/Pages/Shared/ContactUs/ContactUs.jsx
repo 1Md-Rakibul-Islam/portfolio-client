@@ -25,21 +25,21 @@ const ContactUs = () => {
 
   return (
     <div className="">
-    <h1 className="text-4xl text-center font-bold my-10 text-purple-500">Contact Us</h1>
+    <h1 className="text-4xl text-center font-bold my-10 text-purple-600">Contact Us</h1>
     <div className="hero">
         <div className="hero-content flex-col lg:flex-row-reverse gap-20 lg:justify-around">
             <div className="text-center lg:text-left">
                 <div className="flex hover:translate-x-2 items-center">
                     <FaHome className="text-4xl text-purple-400 mb-2 border border-purple-400 rounded-md p-1 hover:border-blue-600"></FaHome>
-                    <p className="py-6 hover:text-purple-500 ml-5">Natore, Bangladesh</p>
+                    <p className="py-6 hover:text-purple-600 ml-5">Natore, Bangladesh</p>
                 </div>
                 <div className="flex hover:translate-x-2 items-center">
                     <FaPhoneSquare className="text-4xl text-purple-400 mb-2 border border-purple-400 rounded-md p-1 hover:border-blue-600"></FaPhoneSquare>
-                    <p className="py-6 hover:text-purple-500 ml-5">+8801798661806</p>
+                    <p className="py-6 hover:text-purple-600 ml-5">+8801798661806</p>
                 </div>
                 <div className="flex hover:translate-x-2 items-center">
                     <FaRegEnvelope className="text-4xl text-purple-400 mb-2 border border-purple-400 rounded-md p-1 hover:border-blue-600"></FaRegEnvelope>
-                    <p className="py-6 hover:text-purple-500 ml-5">rakibul9bd@gmail.com</p>
+                    <p className="py-6 hover:text-purple-600 ml-5">rakibul9bd@gmail.com</p>
                 </div>
             </div>
             <div className="card flex-shrink-0 w-full max-w-xxl shadow-2xl bg-base-100">

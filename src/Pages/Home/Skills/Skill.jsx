@@ -6,9 +6,9 @@ const Skill = ({skill}) => {
     // console.log(skill);
 
     return (
-        <div className="flex flex-col gap-2 p-3 rounded-md justify-center items-center hover:-translate-y-5 hover:border hover:border-blue-600 bg-base-200 shadow-xxl">
+        <div className="flex flex-col gap-2 p-3 rounded-md justify-center items-center hover:border hover:border-blue-600 bg-base-200 shadow-xxl">
             <figure>
-                <img className='w-16 h-16' src={image} alt="Skill"/>
+                <img className='w-12 h-12' src={image} alt="Skill"/>
             </figure>
             <div className="">
                 <h2 className="text-2xl">{name}</h2>
