@@ -9,8 +9,8 @@ const Banner = () => {
         <header className='flex justify-between items-center md:flex-row md:gap-0 gap-y-10 flex-col-reverse md:pt-12'>
             <div className="w-full flex flex-row-reverse justify-evenly gap-10 mx-auto">
                 <div className='w-[480px]'>
-                    <h2 className='text-2xl'>Hello THERE !</h2>
-                    <h2 className=' text-4xl md:text-5xl  my-5' >I am</h2>
+                    <h2 className='text-3xl'>Hello THERE !</h2>
+                    <h2 className=' text-4xl md:text-6xl  my-5' >I am</h2>
                     <div className='text-purple-600'>
                         <TypeAnimation
                             sequence={[
@@ -25,7 +25,7 @@ const Banner = () => {
                             wrapper="div"
                             cursor={true}
                             repeat={Infinity}
-                            style={{ fontSize: '1.9rem'}}
+                            style={{ fontSize: '2.2rem'}}
                             />
                     </div>
                     <div className='mt-16'>
