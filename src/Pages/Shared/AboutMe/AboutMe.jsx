@@ -15,6 +15,11 @@ const AboutMe = () => {
                         I'm a web developer with a focus on the MERN stack, but still exploring other technologies and frameworks that catch my interest! I love building front end applications. I believe that if you do something with your love and passion, the chances of success are much higher. if you're looking for a developer to add to your team, I'd love to hear from you! <br/> <br/>
                         When I'm not coding, I'm likely at the gym or surfing the city with my longboard You can find me on GitHub, Twitter and LinkedIn.
                     </p>
+                    <a href="mailto:rakibul9bd@gmail.com" class="relative mt-5 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
+                        <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                            Higher Me
+                        </span>
+                    </a>
                 </div>
             </div>
         </section>
