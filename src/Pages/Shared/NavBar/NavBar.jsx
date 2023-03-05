@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import brandLogo from '../../../assets/logo.png';
 import Dropdown from "../../../Components/Dropdown/Dropdown";
+import Logo from "../../../Components/Logo/Logo";
 import useScrollPosition from "../../../Hooks/useScrollPosition";
 
 const NavBar = () => {
@@ -37,10 +37,10 @@ const NavBar = () => {
           ? "md:border-b md:border-gray-200/30 md:bg-white/20 navmorphism md:backdrop-blur-xl md:px-10 rounded-full"
           : "bg-white/0"
       } z-30 transition-all mx-auto`}>
-        <div className="absolute w-[50%] inset-0 gradient-01" />
+        
         <div className="flex justify-end md:justify-between py-4 ">
           <div className="hidden md:flex items-center gap-4 text-xl text-purple-400">
-            <img className=" w-[35px]" src={brandLogo} alt="" srcset="" /> <span>Rakibul</span>
+            <Logo /> <span>Rakibul</span>
           </div>
           
           <ul
