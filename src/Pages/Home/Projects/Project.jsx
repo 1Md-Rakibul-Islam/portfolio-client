@@ -62,14 +62,3 @@ const Project = ({project}) => {
 };
 
 export default Project;
-
-
-{/* <div className="card hover:-translate-y-3 hover:border-purple-600 rounded-md bg-base-100 shadow-2xl">
-<figure className='w-auto max-h-60 overflow-y-scroll'>
-    <img className='' src={image[0]} alt="project" />
-</figure>
-<div className="card-body">
-    <h2 className="card-title">{title} <a href={liveLink} target='blank'><FaEye className='text-2xl text-purple-600'></FaEye></a></h2>
-
-</div>
-</div> */}
