@@ -14,7 +14,6 @@ const Skills = () => {
 
   return (
     <section id="skills" className="my-20 mx-5 md:mx-20">
-      <h2 className="text-3xl text-center my-10 text-purple-600">Professional Skills</h2>
       {/* <SkillsSlider></SkillsSlider> */}
       <div className="grid bg-black rounded-md p-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-4 gap-8">
         {skills?.map((skill) => (

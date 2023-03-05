@@ -25,27 +25,33 @@ const Project = ({project}) => {
                 </div>  
                 <p className=''>{technologies}</p>
                 <div className='flex justify-evenly items-center gap-5 mt-5'>
-                    <div className='flex flex-col justify-center items-center'>
-                        <FaGithub className='text-2xl text-purple-700'></FaGithub>
+                    <>
                         {
                             gitHubClient && 
-                            <a href={gitHubClient} target='blank'><span className=''>Client</span></a>
+                            <a href={gitHubClient} className='flex flex-col justify-center items-center' target='blank'>
+                                <FaGithub className='text-2xl text-purple-700'></FaGithub>
+                                <span className=''>Client</span>    
+                            </a>
                         }
-                    </div>
-                    <div className='flex flex-col justify-center items-center'>
-                        <FaGithub className='text-2xl text-purple-700'></FaGithub>
+                    </>
+                    <>
                         {
                             gitHubServer &&
-                            <a href={gitHubServer} target='blank'><span className=''>Server</span></a>
+                            <a href={gitHubServer} className='flex flex-col justify-center items-center' target='blank'>
+                                <FaGithub className='text-2xl text-purple-700'></FaGithub>
+                                <span className=''>Server</span>
+                            </a>
                         }
-                    </div>
-                    <div className='flex flex-col justify-center items-center'>
-                        <FaEye className='text-2xl text-purple-700'></FaEye>
+                    </>
+                    <>
                         {
                             liveLink &&
-                            <a href={liveLink} target='blank'><span className=''>Live</span></a>
+                            <a href={liveLink} className='flex flex-col justify-center items-center' target='blank'>
+                                <FaEye className='text-2xl text-purple-700'></FaEye>
+                                <span className=''>Live</span>
+                            </a>
                         }
-                    </div>
+                    </>
                 </div>
                 <div className='flex justify-center items-center mt-8'>
                     <Link to={`/project/details/${_id}`}>

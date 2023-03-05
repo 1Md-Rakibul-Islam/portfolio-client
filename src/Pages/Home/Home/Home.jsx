@@ -6,12 +6,14 @@ import AboutMe from "../../Shared/AboutMe/AboutMe";
 import Skills from "../Skills/Skills";
 import Services from "../Service/Services";
 import { Link } from "react-router-dom";
+import Qualification from "../Qualification/Qualification";
 
 const Home = () => {
   return (
     <div className="">
       <Banner />
-      <Skills />
+      <Qualification />
+      {/* <Skills /> */}
       <AboutMe />
       <Services />
       <Projects />
