@@ -19,7 +19,8 @@ export const router = createBrowserRouter([
       {
         path: "/project/details/:_id",
         loader: async ({params}) => {
-          return fetch(`https://portfolio-1md-rakibul-islam.vercel.app/project/details/${params._id}`)
+          return fetch(`http://localhost:5000/project/details/${params._id}`)
+          // return fetch(`https://portfolio-1md-rakibul-islam.vercel.app/project/details/${params._id}`)
         },
         element: <ProjectDetails></ProjectDetails>
       },

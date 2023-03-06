@@ -1,16 +1,34 @@
+import { useQuery } from "@tanstack/react-query";
+import axios from "axios";
 import { useState, useEffect } from "react";
+import PreLoading from "../../../Components/Loadings/PreLoading/PreLoading";
 // import SkillsSlider from "./SkillsSlider";
 import Skill from "./Skill";
 
 const Skills = () => {
-  const [skills, setSkills] = useState([]);
 
-  useEffect(() => {
-    // fetch("https://portfolio-1md-rakibul-islam.vercel.app/skills")
-    fetch("skills.json")
-      .then((res) => res.json())
-      .then((data) => setSkills(data));
-  }, []);
+  const {
+    data: skills,
+    isLoading,
+    refetch,
+  } = useQuery({
+    queryKey: ["skills"],
+    queryFn: async () => {
+      const { data } = await axios.get("http://localhost:5000/skills");
+    //   const { data } = await axios.get("https://portfolio-1md-rakibul-islam.vercel.app/skills"); //not creted the collection
+      return data;
+    },
+  });
+
+  if (isLoading) {
+    return <div className="flex my-40 items-center justify-center space-x-2">
+    <div className="w-4 h-4 rounded-full animate-pulse bg-purple-700"></div>
+    <div className="w-4 h-4 rounded-full animate-pulse bg-purple-700"></div>
+    <div className="w-4 h-4 rounded-full animate-pulse bg-purple-700"></div>
+  </div>
+  }
+
+  console.log(skills);
 
   return (
     <section id="skills" className="my-20 mx-5 md:mx-20">

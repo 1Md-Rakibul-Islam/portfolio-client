@@ -7,15 +7,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
 const ProjectDetails = () => {
-    // "_id": 1,
-    // "image": ["https://i.ibb.co/qrqS34d/sokher-furniture-home.png", "https://i.ibb.co/yWyShCc/sokher-furniture-my-order.png", "https://i.ibb.co/bz574NQ/sokher-furniture-admin-all-sellers.png", "https://i.ibb.co/w0xF010/sokher-furniture-admin-report-items.png"],
-    // "title": "Sokher Furnuture",
-    // "subject": "Website for buying and selling old furniture",
-    // "description": "Dashboard Panel. Individual Buyer, Seller and Admin role. Advertising Product, Assign by category, Payment Gateway",
-    // "technologies": "React.js, Tailwind CSS, Daisy UI, MongoDB, Express JS, MongoDB(CRUD), Firebase Auth",
-    // "gitHubClient": "https://github.com/1Md-Rakibul-Islam/sokher-furniture-client-side",
-    // "gitHubServer": "https://github.com/1Md-Rakibul-Islam/sokher-furniture-server-side",
-    // "liveLink": "https://thriving-douhua-c016e0.netlify.app/"
 
   const { _id, title, publish, subject, image, description, technologies, gitHubClient, gitHubServer, liveLink } = useLoaderData();
 

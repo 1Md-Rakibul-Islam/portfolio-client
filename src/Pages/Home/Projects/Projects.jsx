@@ -14,7 +14,8 @@ const Projects = () => {
   } = useQuery({
     queryKey: ["projects"],
     queryFn: async () => {
-      const { data } = await axios.get("https://portfolio-1md-rakibul-islam.vercel.app/projects");
+      const { data } = await axios.get("http://localhost:5000/projects");
+      // const { data } = await axios.get("https://portfolio-1md-rakibul-islam.vercel.app/projects");
       return data;
     },
   });

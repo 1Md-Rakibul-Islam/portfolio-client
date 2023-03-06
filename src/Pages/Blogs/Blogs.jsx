@@ -13,7 +13,7 @@ const Blogs = () => {
   } = useQuery({
     queryKey: ["blogs"],
     queryFn: async () => {
-      const { data } = await axios.get("blogs.json");
+      const { data } = await axios.get("http://localhost:5000/blogs");
     //   const { data } = await axios.get("https://portfolio-1md-rakibul-islam.vercel.app/blogs"); //not creted the collection
       return data;
     },
