@@ -25,7 +25,7 @@ const ContactUs = () => {
     }
 
   return (
-    <div className="">
+    <div className="mt-40">
     <h1 className="text-4xl text-center font-bold my-10 text-purple-600">GET IN TOUCH</h1>
     <div className="lg:mx-40 md:mx-20 mx-5">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 ">

@@ -1,7 +1,7 @@
 import React from "react";
 import { useContext } from "react";
 import { Link, useLoaderData } from "react-router-dom";
-import { FaEye, FaGithub } from 'react-icons/fa';
+import { FaCheckCircle, FaEye, FaGithub } from 'react-icons/fa';
 import toast, { Toaster } from "react-hot-toast";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
@@ -19,54 +19,65 @@ const ProjectDetails = () => {
 
   const { _id, title, publish, subject, image, description, technologies, gitHubClient, gitHubServer, liveLink } = useLoaderData();
 
+  var features = description.split('.');
+
   return (
-    <div className="mx-auto">
-      <h2 className="text-center text-purple-600 my-5 text-4xl">Project Details</h2>
-      <div className="hero my-10 bg-base-200 rounded-md">
-        <div className="hero-content flex flex-col justify-between items-start lg:flex-row">
-          <div className="">
-            <div className="card grid md:grid-cols-2 grid-cols-1 lg:card-side shadow-xxl">
-              {/* <figure className="w-auto h-72"> */}
-                {/* <img className="" src={image[0]} alt="image" /> */}
-                <Carousel>
-                  <div className="w-auto h-72">
-                      <img className="" src={image[0]} />
-                  </div>
-                  <div className="w-auto h-72">
-                      <img className="" src={image[1]} />
-                  </div>
-                  <div className="w-auto h-72">
-                      <img className="" src={image[2]} />
-                  </div>
-                </Carousel>
-              {/* </figure> */}
-              <div className="card-body relative">
-                <h2 className="text-3xl text-primary">{title}</h2>
-                <span className="badge badge-warning font-bold ">{subject}</span>
-                <span className="font-bold mt-2">Publish: {publish}</span>
-                <br />
-                {description}
-                <div className='flex text-1xl gap-5 my-5'>
-                    <FaGithub className=' text-3xl text-purple-400 mb-2 border border-purple-400 rounded-full p-1 hover:border-blue-600'></FaGithub>
-                    {
-                        gitHubClient && 
-                        <a href={gitHubClient} target='blank'><span className='underline text-purple-600'>Client</span></a>
-                    }
-                    {
-                        gitHubServer &&
-                        <a href={gitHubServer} target='blank'><span className='underline text-purple-600'>Server</span></a>
-                    }
-                </div>
-                <div className="flex md:absolute bottom-0 justify-between items-end">
-                  <p>Technologies: {technologies}</p>
-                  <a className="btn btn-primary btn-outline btn-md text-black" href={liveLink} target='blank'><FaEye className='text-2xl text-primary mr-2'></FaEye>Live</a>
-                </div>
-              </div>
+    <section className=" text-gray-100">
+      <div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
+        <div>
+          <h2 className="text-3xl font-bold tracking-tight text-center sm:text-5xl text-gray-50">{title}</h2>
+          <p className="max-w-3xl mx-auto mt-4 text-xl text-center text-gray-400">{subject}</p>
+        </div>
+        <div className="grid gap-5 justify-evenly items-start md:grid-cols-2 ">
+          <div>
+            <h3 className="text-2xl font-bold tracking-tight sm:text-3xl text-gray-50">Features</h3>
+            <div className="mt-5 space-y-6">
+              {
+                features?.map( feature => <div className="text-xl">
+                 <h5><FaCheckCircle className="text-purple-700 text-2xl inline mr-3" />{feature}.</h5>
+                </div>)
+              }
             </div>
+            <h3 className="text-2xl mt-10 font-bold tracking-tight sm:text-3xl text-gray-50">Techonologys</h3>
+            <p className="mt-3 text-lg text-gray-300">{technologies}</p>
+            <h3 className="text-2xl mt-10 font-bold tracking-tight sm:text-3xl text-gray-50">Publish</h3>
+            <p className="text-gray-300 mt-2">Date: {publish}</p>
+            <div className='flex justify-evenly items-center gap-5 mt-5'>
+                    <>
+                        {
+                            gitHubClient && 
+                            <a href={gitHubClient} className='flex border border-blue-700 hover:bg-black rounded-lg shadow-2xl translate-y-5 w-20 h-20 p-1 flex-col justify-center items-center' target='blank'>
+                                <FaGithub className='text-2xl'></FaGithub>
+                                <span className=''>Client</span>    
+                            </a>
+                        }
+                    </>
+                    <>
+                        {
+                            gitHubServer &&
+                            <a href={gitHubServer} className='flex border border-blue-700 hover:bg-black rounded-lg shadow-2xl translate-y-5 w-20 h-20 p-1 flex-col justify-center items-center' target='blank'>
+                                <FaGithub className='text-2xl'></FaGithub>
+                                <span className=''>Server</span>
+                            </a>
+                        }
+                    </>
+                    <>
+                        {
+                            liveLink &&
+                            <a href={liveLink} className='flex  border border-blue-700 hover:bg-black rounded-lg shadow-2xl translate-y-5 w-20 h-20 p-1 flex-col justify-center items-center' target='blank'>
+                                <FaEye className='text-2xl'></FaEye>
+                                <span className=''>Live</span>
+                            </a>
+                        }
+                    </>
+            </div>
+          </div>
+          <div aria-hidden="true" className="h-[580px] overflow-y-scroll">
+            <img src={image[0]} alt="" className="mx-auto rounded-lg shadow-lg bg-gray-500" />
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
