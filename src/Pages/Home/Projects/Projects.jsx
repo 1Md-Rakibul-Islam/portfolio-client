@@ -20,7 +20,7 @@ const Projects = () => {
   });
 
   if (isLoading) {
-    <CardLoading />
+    return <CardLoading />
   }
 
 // console.log(projects);
