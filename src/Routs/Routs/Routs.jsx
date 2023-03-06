@@ -21,7 +21,7 @@ export const router = createBrowserRouter([
       {
         path: "/project/details/:_id",
         loader: async ({params}) => {
-          return fetch(`http://localhost:5000/project/details/${params._id}`)
+          return fetch(`https://portfolio-rakibul-islam.vercel.app/project/details/${params._id}`)
           // return fetch(`https://portfolio-1md-rakibul-islam.vercel.app/project/details/${params._id}`)
         },
         element: <ProjectDetails></ProjectDetails>
@@ -37,7 +37,7 @@ export const router = createBrowserRouter([
       {
         path: "/blogs/details/:_id",
         loader: async ({params}) => {
-          return fetch(`http://localhost:5000/blog/details/${params._id}`)
+          return fetch(`https://portfolio-rakibul-islam.vercel.app/blog/details/${params._id}`)
           // return fetch(`https://portfolio-1md-rakibul-islam.vercel.app/blog/details/${params._id}`)
         },
         element: <BlogDetails></BlogDetails>,
