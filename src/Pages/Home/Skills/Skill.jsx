@@ -10,7 +10,7 @@ const Skill = ({skill}) => {
             <figure>
                 <img className='w-12 h-12' src={image} alt="Skill"/>
             </figure>
-            <div className="">
+            <div className="text-white">
                 <h2 className="text-2xl">{name}</h2>
                 {/* <p>{experience}</p> */}
             </div>

@@ -4,7 +4,7 @@ import { FaPhone } from 'react-icons/fa';
 const Service = ({service}) => {
     const { icon, title, experience} = service;
     return (
-        <div className="relative hover:-translate-y-5 hover:cursor-pointer flex flex-col items-center text-center rounded-md hover:shadow-2xl dark:text-gray-100 p-6 
+        <div className="relative hover:-translate-y-5 hover:cursor-pointer flex flex-col items-center text-center rounded-md hover:shadow-2xl text-gray-100 p-6 
         border-b border-gray-200/30 bg-white/20 navmorphism backdrop-blur-xl
         ">
             {/* <div className=''> */}
@@ -12,7 +12,7 @@ const Service = ({service}) => {
             {/* </div> */}
             <div className="">
                 <h2 className="z-50 text-3xl font-semibold mb-8 mt-16 tracking-wide">{title}</h2>
-                <p className="dark:text-gray-400">{experience}</p>
+                <p className="text-gray-400">{experience}</p>
             </div>
         </div>
     );

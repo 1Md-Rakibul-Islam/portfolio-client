@@ -19,8 +19,8 @@ const Project = ({project}) => {
             <h1 className=" text-2xl font-bold text-white mb-5 uppercase">{title}</h1>
             <div className='mb-12 w-20 h-1.5 bg-purple-700' />
             
-            <div className="w-full h-[200px]">
-                <div className='flex mb-2 rounded-lg justify-center items-center text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 w-36'>
+            <div className="w-full h-[200px] text-white">
+                <div className='flex mb-2 rounded-lg justify-center items-center bg-gradient-to-r from-green-400 via-green-500 to-green-600 w-36'>
                     <span className='font-bold px-2 py-1'>Technologies:</span>
                 </div>  
                 <p className=''>{technologies}</p>
@@ -55,7 +55,7 @@ const Project = ({project}) => {
                 </div>
                 <div className='flex justify-center items-center mt-8'>
                     <Link to={`/project/details/${_id}`}>
-                        <a className='text-white bg-gradient-to-r from-purple-600 to-blue-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-full text-xl px-5 py-2.5 text-center mr-2 mb-2' href={gitHubClient} target='blank'><span className=''>Details</span></a>
+                        <a className='text-white bg-gradient-to-r from-purple-600 to-blue-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-800 font-medium rounded-full text-xl px-5 py-2.5 text-center mr-2 mb-2' href={gitHubClient} target='blank'><span className=''>Details</span></a>
                     </Link>                    
                 </div>
 

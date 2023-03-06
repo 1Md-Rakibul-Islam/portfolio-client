@@ -21,12 +21,12 @@ const NavBar = () => {
   const scrolled = useScrollPosition(50);
 
     const menuItems = <React.Fragment>
-        <li className="font-normal font-poppins text-[16px]  cursor-pointer  mr-6 "><Link to={'/'}>Home</Link></li>
-        {/* <li className="font-normal font-poppins text-[16px]  cursor-pointer  mr-6 "><a href="#skills">Skills</a></li> */}
-        <li className="font-normal font-poppins text-[16px]  cursor-pointer  mr-6 "><Link to={'/portfolio'}>Portfolio</Link></li>
-        <li className="font-normal font-poppins text-[16px]  cursor-pointer  mr-6 "><Link to={'/blogs'}>Blogs</Link></li>
-        <li className="font-normal font-poppins text-[16px]  cursor-pointer  mr-6 "><Link to={'/contractUs'}>Contract Us</Link></li>
-        <li className="font-normal font-poppins text-[16px]  cursor-pointer  mr-6 "><Link to={'/about'}>About</Link></li>
+        <li className="font-normal font-poppins text-[16px]  cursor-pointer  mr-6 hover:text-purple-500 "><Link to={'/'}>Home</Link></li>
+        {/* <li className="font-normal font-poppins text-[16px]  cursor-pointer  mr-6 hover:text-purple-500 "><a href="#skills">Skills</a></li> */}
+        <li className="font-normal font-poppins text-[16px]  cursor-pointer  mr-6 hover:text-purple-500 "><Link to={'/portfolio'}>Portfolio</Link></li>
+        <li className="font-normal font-poppins text-[16px]  cursor-pointer  mr-6 hover:text-purple-500 "><Link to={'/blogs'}>Blogs</Link></li>
+        <li className="font-normal font-poppins text-[16px]  cursor-pointer  mr-6 hover:text-purple-500 "><Link to={'/contractUs'}>Contract Us</Link></li>
+        <li className="font-normal font-poppins text-[16px]  cursor-pointer  mr-6 hover:text-purple-500 "><Link to={'/about'}>About</Link></li>
     </React.Fragment>
 
   return (
@@ -51,7 +51,7 @@ const NavBar = () => {
           </ul>
           <div className="">
             <button onClick={() => setMenuOpen((prev) => !prev)}
-              type="button" className="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" >
+              type="button" className="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-600" id="user-menu-button" >
               <span className="sr-only">Open user menu</span>
               <img className="w-8 h-8 rounded-full" src="" alt="user photo" />
             </button>
