@@ -1,37 +1,37 @@
 [
     {
         "_id": 0,
-        "icon": "../src/assets/Service-Icons/frontend.png",
+        "icon": "https://i.ibb.co/FDtZcpB/frontend.png",
         "title": "Front-End Development",
         "experience": "I can easily develop your Front-End Web Applactions into code within few time.I will use HTML, CSS, Tailwind CSS, Bootstrap, Material-UI, JavaScript and React.js to Design Your Website."
     },
     {
         "_id": 1,
-        "icon": "../src/assets/Service-Icons/web-development.png",
+        "icon": "https://i.ibb.co/XDvMG48/web-development.png",
         "title": "Back-End Development",
         "experience": "I will build your Back-End Server. I will use Node.js, Express.js, Python, MongoDB and mongoose for your Website backend."
     },
     {
         "_id": 3,
-        "icon": "../src/assets/Service-Icons/code.png",
+        "icon": "https://i.ibb.co/WWst1fg/code.png",
         "title": "Clean Code",
         "experience": "I can code your website in neat and clean that any developer can understand that. Clean code is efficient, maintainable, and easy to read. It uses meaningful titles, avoids duplication, and has clear comments and documentation. Following best practices for clean code can reduce errors and improve performance."
     },
     {
         "_id": 4,
-        "icon": "../src/assets/Service-Icons/team-warking.png",
+        "icon": "https://i.ibb.co/NNV2NjL/team-warking.png",
         "title": "Team Warking",
         "experience": "My team working involves effective communication, collaboration, and mutual respect. I encourage creativity and innovation while maintaining a positive and inclusive work environment. I prioritize team goals and support individual development. By working together, we achieve success and continuously improve our performance."
     },
     {
         "_id": 5,
-        "icon": "../src/assets/Service-Icons/website-proplem-soulation.png",
+        "icon": "https://i.ibb.co/bXg40Bb/website-proplem-soulation.png",
         "title": "Bugs and Problems Solutions",
         "experience": "I provide comprehensive solutions for various website problems, including design, functionality, and technical issues. I use a customer-focused approach to identify and solve problems efficiently. My services include website maintenance, optimization, and security. I aim to ensure website performance and user satisfaction."
     },
     {
         "_id": 6,
-        "icon": "../src/assets/Service-Icons/support.png",
+        "icon": "https://i.ibb.co/ZdgRHkk/support.png",
         "title": "Great Support",
         "experience": "My great support of clients includes timely responses, active listening, empathy, and problem-solving skills. I prioritize customer satisfaction by understanding their needs and providing efficient solutions. I strive to create a positive and professional relationship with my clients and ensure their success."
     }

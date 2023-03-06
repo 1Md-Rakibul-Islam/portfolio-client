@@ -36,7 +36,7 @@ const ProjectDetails = () => {
             <p className="mt-3 text-lg text-gray-300">{technologies}</p>
             <h3 className="text-2xl mt-10 font-bold tracking-tight sm:text-3xl text-gray-50">Publish</h3>
             <p className="text-gray-300 mt-2">Date: {publish}</p>
-            <div className='flex justify-evenly items-center gap-5 mt-5'>
+            <div className='flex justify-evenly items-center gap-5 md:mb-0 my-5'>
                     <>
                         {
                             gitHubClient && 

@@ -1,3 +1,4 @@
+import axios from "axios";
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../../Layout/Main";
 import BlogDetails from "../../Pages/BlogDetails/BlogDetails";
@@ -21,8 +22,7 @@ export const router = createBrowserRouter([
       {
         path: "/project/details/:_id",
         loader: async ({params}) => {
-          return fetch(`https://portfolio-rakibul-islam.vercel.app/project/details/${params._id}`)
-          // return fetch(`https://portfolio-1md-rakibul-islam.vercel.app/project/details/${params._id}`)
+          return await fetch(`https://portfolio-rakibul-islam.vercel.app/project/details/${params._id}`)
         },
         element: <ProjectDetails></ProjectDetails>
       },
@@ -37,8 +37,7 @@ export const router = createBrowserRouter([
       {
         path: "/blogs/details/:_id",
         loader: async ({params}) => {
-          return fetch(`https://portfolio-rakibul-islam.vercel.app/blog/details/${params._id}`)
-          // return fetch(`https://portfolio-1md-rakibul-islam.vercel.app/blog/details/${params._id}`)
+          return await fetch(`https://portfolio-rakibul-islam.vercel.app/blog/details/${params._id}`)
         },
         element: <BlogDetails></BlogDetails>,
       },

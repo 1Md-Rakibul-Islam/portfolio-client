@@ -4,7 +4,6 @@ import { FaEye, FaGithub } from 'react-icons/fa';
 
 const Project = ({project}) => {
     const {_id, image, title, subject, description, technologies, gitHubClient, gitHubServer, liveLink} = project;
-    // "image": ["https://ibb.co/44Xrdrf", "https://ibb.co/rbPZCk1", "https://ibb.co/Jtmxk2w", "https://ibb.co/gRJv41M"],
 
     // console.log(image);
 

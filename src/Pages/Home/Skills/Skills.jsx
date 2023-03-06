@@ -15,7 +15,6 @@ const Skills = () => {
     queryKey: ["skills"],
     queryFn: async () => {
       const { data } = await axios.get("https://portfolio-rakibul-islam.vercel.app/skills");
-    //   const { data } = await axios.get("https://portfolio-1md-rakibul-islam.vercel.app/skills"); //not creted the collection
       return data;
     },
   });
