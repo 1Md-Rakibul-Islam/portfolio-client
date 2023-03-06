@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useContext } from "react";
 import { Link, useLoaderData } from "react-router-dom";
 import { FaCheckCircle, FaEye, FaGithub } from 'react-icons/fa';
@@ -20,6 +20,9 @@ const ProjectDetails = () => {
   const { _id, title, publish, subject, image, description, technologies, gitHubClient, gitHubServer, liveLink } = useLoaderData();
 
   var features = description.split('.');
+
+  var [selectImg, setSelectImg] = useState(0);
+
 
   return (
     <section className=" text-gray-100">
@@ -75,6 +78,29 @@ const ProjectDetails = () => {
           <div aria-hidden="true" className="h-[580px] overflow-y-scroll">
             <img src={image[0]} alt="" className="mx-auto rounded-lg shadow-lg bg-gray-500" />
           </div>
+        </div>
+        <div className="flex gap-5 justify-center" role="group">
+          {
+            image?.map( (img, i) => <button type="button" 
+            className="px-4  shadow-2xl rounded-full py-2 text-sm font-medium border-t border-b focus:z-10 focus:ring-2
+             bg-gray-700 border-gray-600 text-white hover:text-white hover:bg-gray-600 focus:ring-blue-500 focus:text-white" 
+            onClick={ () => setSelectImg(i)}>{i+1}</button>)
+          }
+        </div>
+        <div className="-mt-10">
+          <Carousel 
+            autoPlay={true}
+            infiniteLoop={true}
+            dynamicHeight={true}
+            interval={2000}
+            selectedItem={selectImg}
+          >
+            {
+              image?.map( img => <div className="w-auto h-auto">
+                <img className="" src={img} />
+            </div>)
+            }
+          </Carousel>
         </div>
       </div>
     </section>
