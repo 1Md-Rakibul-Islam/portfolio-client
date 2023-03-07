@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Dropdown from "../../../Components/Dropdown/Dropdown";
 import Logo from "../../../Components/Logo/Logo";
@@ -51,9 +52,10 @@ const NavBar = () => {
           </ul>
           <div className="">
             <button onClick={() => setMenuOpen((prev) => !prev)}
-              type="button" className="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-600" id="user-menu-button" >
+              type="button" className="md:hidden block mr-5" >
               <span className="sr-only">Open user menu</span>
-              <img className="w-8 h-8 rounded-full" src="" alt="user photo" />
+              {/* <img className="w-8 h-8 rounded-full" src="" alt="user photo" /> */}
+              <FaBars className="text-2xl hover:text-purple-700 mt-1.5" />
             </button>
               { menuOpen && <Dropdown menuItems={menuItems}/>}
           </div>

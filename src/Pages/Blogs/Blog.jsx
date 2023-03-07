@@ -12,7 +12,7 @@ const Blog = ({ blog }) => {
 				<h3 className="text-2xl text-yellow-50 font-semibold group-hover:underline group-focus:underline">{name}</h3>
 				<span className="text-xs text-gray-400">{publish}</span>
         <Link to={`/blogs/details/${_id}`}>
-				  <p className="hover:cursor-pointer text-white">{ details.length > 100 ? details.slice(0, 200) + ".......See More" : details }</p>
+				  <p className="mt-5 hover:cursor-pointer text-white">{ details.length > 100 ? details.slice(0, 200) + ".......See More" : details }</p>
         </Link>
         <div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs text-gray-400">
             <span>2.1K views</span>

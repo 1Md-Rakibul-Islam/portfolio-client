@@ -9,7 +9,7 @@ const Qualification = () => {
     const [index, setIndex] = useState(0);
 
     return (
-        <section className='mt-40'>
+        <section className='lg:mt-40 md:mt-24 mt-16'>
             {/* Tab index */}
             <div>
                 <ul className="flex justify-center flex-wrap text-sm font-medium text-center border-gray-700 text-gray-400">

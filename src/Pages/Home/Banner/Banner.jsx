@@ -6,7 +6,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Banner = () => {
     return (
-        <header className='flex justify-between items-center md:flex-row md:gap-0 gap-y-10 flex-col-reverse md:pt-12'>
+        <header className='flex justify-between items-center lg:flex-row lg:gap-0 gap-y-10 flex-col-reverse lg:pt-12'>
             <div className="w-full flex flex-row-reverse justify-evenly gap-10 mx-auto">
                 <div className='w-[480px] text-white'>
                     <h2 className='text-3xl'>Hello THERE !</h2>

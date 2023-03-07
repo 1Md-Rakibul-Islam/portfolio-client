@@ -1,0 +1,18 @@
+[
+    {
+        "_id": 0,
+        "name": "Md. Bayazid Hossain",
+        "email": "rashel@gamil.com",
+        "positon": "Front-End Web Developer",
+        "photo": "https://i.ibb.co/gdrSfWC/baizeed.jpg",
+        "comment": "He is the true and most energetic person I have ever seen. He always tries to give his 100% at work. Very communicative and friendly. He knows how to finish his task. A highly recommended person. Wishing him a very good luck"
+    },
+    {
+        "_id": 1,
+        "name": "Rraisul Islam Rasel",
+        "email": "raisuli885@gmail.com",
+        "positon": "Undefind",
+        "photo": "https://i.ibb.co/MRMm9HG/259976169-1257685594736636-9049907582845167550-n.jpg",
+        "comment": "I had an amazing experience working with this web developer. They were responsive, efficient, and delivered exactly what I was looking for. Their expertise and attention to detail really made my website stand out. I would highly recommend them to anyone looking for a reliable and talented web developer."
+    }
+]
