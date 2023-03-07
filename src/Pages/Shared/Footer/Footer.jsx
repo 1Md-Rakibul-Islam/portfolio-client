@@ -17,7 +17,7 @@ const Footer = () => {
                     <Link to={"/blogs"} className="mr-4 hover:underline md:mr-6">Blogs</Link>
                 </li>
                 <li>
-                    <Link to={"/Protfolio"} className="mr-4 hover:underline md:mr-6 ">Protfolio</Link>
+                    <Link to={"/portfolio"} className="mr-4 hover:underline md:mr-6 ">Protfolio</Link>
                 </li>
                 <li>
                     <Link to={"/contractUs"} className="hover:underline">Contact</Link>
@@ -25,21 +25,21 @@ const Footer = () => {
             </ul>
         </div>
         <div className="flex justify-center mt-2 gap-4">
-            <Link href="https://github.com/1Md-Rakibul-Islam" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/1Md-Rakibul-Islam" target="_blank" rel="noopener noreferrer">
               <FaGithub className="text-4xl text-purple-400 mb-2 p-1 hover:border-blue-600"></FaGithub>
-            </Link>
+            </a>
 
-            <Link href="https://www.linkedin.com/in/1md-rakibul-islam" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/1md-rakibul-islam" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className="text-4xl text-purple-400 mb-2 p-1 hover:border-blue-600"></FaLinkedin>
-            </Link>
+            </a>
 
-            <Link href="https://facebook.com/profaile.rakibul.islam" target="_blank" rel="noopener noreferrer">
+            <a href="https://facebook.com/profaile.rakibul.islam" target="_blank" rel="noopener noreferrer">
               <FaFacebook className="text-4xl text-purple-400 mb-2 p-1 hover:border-blue-600"></FaFacebook>
-            </Link>
+            </a>
 
-            <Link href="https://twitter.com/MrRakib17184590Link">
+            <a href="https://twitter.com/MrRakib17184590Link" target="_blank" rel="noopener noreferrer">
               <FaTwitter className="text-4xl text-purple-400 mb-2 p-1 hover:border-blue-600" rel="noopener noreferrer"></FaTwitter>
-            </Link>
+            </a>
         </div>
         <hr className="my-6 sm:mx-auto border-gray-700 lg:my-8" />
         <span className="block text-sm text-center text-gray-400">© <Link className="hover:underline">Rakibul Islam™</Link>. All Rights Reserved.

@@ -30,29 +30,29 @@ const Banner = () => {
                     </div>
                     <div className='mt-16'>
                         {/* <p className='mb-10'>Web Application Developer(MERN)</p> */}
-                        {/* <Link to='/portfolio'><button className='btn btn-secondary mr-5'>PORTFOLIO</button></Link> */}
+                        {/* <Link  to='/portfolio'><button className='btn btn-secondary mr-5'>PORTFOLIO</button></a> */}
                         <a href="https://drive.google.com/u/0/uc?id=1KBeOC-FdwRjgRpMK_MLS7cPeGZkY4Dys&export=download" download className='px-8 py-3 bg-gradient-to-r from-indigo-800 via-purple-500 to-pink-500 font-semibold rounded-full bg-gray-100 text-gray-800' >
                             <span className='text-white '>DOWNLOAD RESUMI</span>
                         </a>
                     </div>
                 </div>
                 <div className=''>
-                    <Link to="https://github.com/1Md-Rakibul-Islam" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/1Md-Rakibul-Islam" target="_blank" rel="noopener noreferrer">
                         <FaGithub className='text-4xl text-purple-400 mb-2 border border-purple-400 rounded-md p-1 hover:border-blue-600'></FaGithub>
-                    </Link>
+                    </a>
 
-                    <Link to="https://www.linkedin.com/in/1md-rakibul-islam" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/1md-rakibul-islam" target="_blank" rel="noopener noreferrer">
                         <FaLinkedin className='text-4xl text-purple-400 mb-2 border border-purple-400 rounded-md p-1 hover:border-blue-600'>
                         </FaLinkedin>
-                    </Link>
+                    </a>
 
-                    <Link to="https://facebook.com/profaile.rakibul.islam" target="_blank" rel="noopener noreferrer">
+                    <a href="https://facebook.com/profaile.rakibul.islam" target="_blank" rel="noopener noreferrer">
                         <FaFacebook className='text-4xl text-purple-400 mb-2 border border-purple-400 rounded-md p-1 hover:border-blue-600'></FaFacebook>
-                    </Link>
+                    </a>
 
-                    <Link to="https://twitter.com/MrRakib17184590">
+                    <a href="https://twitter.com/MrRakib17184590" target="_blank" rel="noopener noreferrer">
                         <FaTwitter className='text-4xl text-purple-400 mb-2 border border-purple-400 rounded-md p-1 hover:border-blue-600'></FaTwitter>
-                    </Link>
+                    </a>
                 </div>
             </div> {/*bg-gradient-to-r from-indigo-800 via-purple-500 to-pink-500*/}
             <div className="w-[360px] h-[360px] md:w-full md:h-full overflow-hidden  flex items-center justify-evenly rounded-full">
