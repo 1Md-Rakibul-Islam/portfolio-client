@@ -1,6 +1,5 @@
 [
     {
-        "_id": 0,
         "name": "Md. Bayazid Hossain",
         "email": "rashel@gamil.com",
         "positon": "Front-End Web Developer",
@@ -8,7 +7,6 @@
         "comment": "He is the true and most energetic person I have ever seen. He always tries to give his 100% at work. Very communicative and friendly. He knows how to finish his task. A highly recommended person. Wishing him a very good luck"
     },
     {
-        "_id": 1,
         "name": "Rraisul Islam Rasel",
         "email": "raisuli885@gmail.com",
         "positon": "Undefind",

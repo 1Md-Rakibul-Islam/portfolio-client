@@ -14,8 +14,7 @@ const Testimonial = () => {
       } = useQuery({
         queryKey: ["testimonials"],
         queryFn: async () => {
-          const { data } = await axios.get("testimonials.json");
-        //   const { data } = await axios.get("https://portfolio-rakibul-islam.vercel.app/testimonials");
+          const { data } = await axios.get("https://portfolio-rakibul-islam.vercel.app/testimonials");
           return data;
         },
       });
@@ -24,7 +23,6 @@ const Testimonial = () => {
         return <PreLoading />
       }
     
-
     return (
         <section className='bg-black mt-20 '>
             <h2 className='text-center pt-10 text-4xl text-purple-700'>Testimonial</h2>
@@ -34,7 +32,6 @@ const Testimonial = () => {
                 autoPlay={true}
                 infiniteLoop={true}
                 interval={2000}
-                
                 //   selectedItem={selectImg}
                 >
                 {
