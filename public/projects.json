@@ -1,0 +1,78 @@
+[
+  {
+    "image": [
+      "https://i.ibb.co/RvfLkgj/instractures-elearning.png",
+      "https://i.ibb.co/3SZV5ts/course-details-elearning.png",
+      "https://i.ibb.co/MVQQ49Y/home-page-elearning.png"
+    ],
+    "title": "E-Learning",
+    "subject": "E-Learning is an online Education Next.js Web Template. It's a Template Monster approved Template",
+    "description": "Intuitive homepage showcasing featured courses, announcements, and upcoming events. Detailed information about the platform's mission, vision, and values. Browse and search through a diverse catalog of available courses. In-depth course descriptions, syllabus, and instructor details. Profiles of skilled instructors, showcasing their expertise and teaching style. Detailed information about individual instructors, including their qualifications and achievements. Frequently Asked Questions section to address common queries.",
+    "technologies": "Tailwind CSS, React, Next.js, Typescript, Context API, Swiper.js React Countup, Email.js, React Animate Height",
+    "liveLink": "https://elearning-orpin.vercel.app",
+    "publish": "03-11-2023"
+  },
+  {
+    "image": [
+      "https://raw.githubusercontent.com/xbayazid/coderstackbox/main/images/home.png",
+      "https://raw.githubusercontent.com/xbayazid/coderstackbox/main/images/ide.png",
+      "https://raw.githubusercontent.com/xbayazid/coderstackbox/main/images/collection.png"
+    ],
+    "title": "Coder's Stackbox",
+    "subject": "Coder's Stackbox is online code editor platfrom",
+    "description": "Dashboard Panel, Individual Users, and Admin roles. Create and save front-end Web apps with HTML, CSS, and JavaScript also if you use our IDE then you can import any frontend and framework or libraries like React, and React Router. Blogs write and publish, Projects collections, doc, user support.",
+    "technologies": "Tailwind CSS, React, Redux, MongoDB, Mongoose, Express.js, JWT, Firebase Auth etc.",
+    "gitHubClient": "https://github.com/xbayazid/coderstackbox",
+    "gitHubServer": "https://github.com/xbayazid/coderstackbox-server",
+    "liveLink": "https://codersstackbox-c9449.web.app/",
+    "publish": "26-11-2022"
+  },
+  {
+    "image": [
+      "https://i.ibb.co/qrqS34d/sokher-furniture-home.png",
+      "https://i.ibb.co/yWyShCc/sokher-furniture-my-order.png",
+      "https://i.ibb.co/bz574NQ/sokher-furniture-admin-all-sellers.png",
+      "https://i.ibb.co/w0xF010/sokher-furniture-admin-report-items.png"
+    ],
+    "title": "Sokher Furnuture",
+    "subject": "Website for buying and selling old furniture",
+    "description": "Dashboard Panel. Individual Buyer, Seller and Admin role. Advertising Product, Assign by category, Payment Gateway",
+    "technologies": "React.js, Tailwind CSS, Daisy UI, MongoDB, Express JS, Firebase Auth etc",
+    "gitHubClient": "https://github.com/1Md-Rakibul-Islam/sokher-furniture-client-side",
+    "gitHubServer": "https://github.com/1Md-Rakibul-Islam/sokher-furniture-server-side",
+    "liveLink": "https://thriving-douhua-c016e0.netlify.app/",
+    "publish": "26-11-2022"
+  },
+  {
+    "image": [
+      "https://i.ibb.co/m0DPWRp/image.png",
+      "https://i.ibb.co/10KWxmR/image.png",
+      "https://i.ibb.co/82ZFYpw/image.png",
+      "https://i.ibb.co/N7vjj5D/image.png"
+    ],
+    "title": "Snap Waves",
+    "subject": "Socal Media Website",
+    "description": "Tailor your posts to friends, family, or followers. You can send messages to people you follow or people who follow you. Whether it's sharing personal updates or professional insights, you have the flexibility to posts and comments delete update your content. You can follow and unfollow any users. Adjust your online presence visibility. Easily remove unwanted like, and comments from your posts.",
+    "technologies": "Technologies: React.js, Redux Toolkit, Material-UI, MongoDB, Mongoose, Express JS, Socket.io, TanStack Query, Axios, Firebase Auth etc",
+    "gitHubClient": "https://github.com/1Md-Rakibul-Islam/SnapWaves-Client",
+    "gitHubServer": "https://github.com/1Md-Rakibul-Islam/SnapWaves-Server",
+    "liveLink": "https://snapwaves.netlify.app",
+    "publish": "08.08.2023"
+  },
+  {
+    "image": [
+      "https://i.ibb.co/YcCYxZ4/sunlight-dental1.png",
+      "https://i.ibb.co/Ttv7z2m/sunlight-dental2.png",
+      "https://i.ibb.co/pn1pB5b/sunlight-dental3.png",
+      "https://i.ibb.co/tw0XL8J/sunlight-dental4.png"
+    ],
+    "title": "SUNLIGHT DENTAL CARE",
+    "subject": "Dental care website",
+    "description": "User Can add any service. User can give review for every individual service and private routes. My review delete and update.",
+    "technologies": "Technologies: React.js, Tailwind CSS, Daisy UI, MongoDB, Express JS, Firebase Auth etc",
+    "gitHubClient": "https://github.com/1Md-Rakibul-Islam/sunlight-dental-care-client-side/tree/main/vite-project",
+    "gitHubServer": "https://github.com/1Md-Rakibul-Islam/sunlight-dental-care-server-side",
+    "liveLink": "https://profound-quokka-10352e.netlify.app/",
+    "publish": "10.10.2022"
+  }
+]
