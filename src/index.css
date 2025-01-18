@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
   background-color: #0e0e1c;
 }
 
-.bg-body{
+.bg-body {
   background-color: #0e0e1c;
 }
 
@@ -20,4 +20,17 @@ body{
   .container {
     @apply mx-auto px-3 sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] xxl:max-w-[1296px] 3xl:max-w-[1650px];
   }
+
+  .section-py {
+    @apply xl:py-[120px] lg:py-[100px] md:py-[90px] sm:py-20 py-[60px];
+  }
+
+  .section-pt {
+    @apply xl:pt-[120px] lg:pt-[100px] md:pt-[90px] sm:pt-20 pt-[60px];
+  }
+
+  .section-pb {
+    @apply xl:pb-[120px] lg:pb-[100px] md:pb-[90px] sm:pb-20 pb-[60px];
+  }
+
 }

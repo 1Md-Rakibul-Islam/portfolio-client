@@ -6,7 +6,6 @@ import CardLoading from "../../../Components/Loadings/CardLoading/CardLoading";
 import Project from "./Project";
 
 const Projects = () => {
-
   const {
     data: projects,
     isLoading,
@@ -14,26 +13,28 @@ const Projects = () => {
   } = useQuery({
     queryKey: ["projects"],
     queryFn: async () => {
-      const { data } = await axios.get("https://portfolio-rakibul-islam.vercel.app/projects");
+      const { data } = await axios.get("projects.json");
       return data;
     },
   });
 
   if (isLoading) {
-    return <CardLoading />
+    return <CardLoading />;
   }
 
-// console.log(projects);
+  // console.log(projects);
 
   return (
-    <section className="my-10 mx-10 md:mx-40">
-      <h2 className="text-4xl text-center my-10 mx-auto text-purple-600">Portfolio</h2>
+    <section className="section-py mx-10 md:mx-40">
+      <h2 className="text-4xl text-center my-10 mx-auto text-purple-600">
+        Portfolio
+      </h2>
       <h2 className="text-4xl text-center my-10 mx-auto">
         {projects?.length > 0 ? "" : "No Data Found"}
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-        {projects?.map((project) => (
-          <Project key={project._id} project={project}></Project>
+        {projects?.map((project, idx) => (
+          <Project key={idx} project={project}></Project>
         ))}
       </div>
     </section>

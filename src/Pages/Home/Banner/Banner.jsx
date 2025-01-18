@@ -7,18 +7,17 @@ import {
   FaInstagram,
   FaGithub,
 } from "react-icons/fa";
-import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
 
 const Banner = () => {
   return (
-    <section>
-      <div className="container">
-        <div className="flex justify-between items-center lg:flex-row lg:gap-0 gap-y-10 flex-col-reverse lg:pt-12">
-          <div className="w-full flex flex-row-reverse justify-evenly gap-10 mx-auto">
-            <div className="w-[480px] text-white">
-              <h2 className="text-3xl">Hello THERE !</h2>
-              <h2 className=" text-4xl md:text-6xl  my-5">I am</h2>
+    <section className="section-py overflow-hidden min-h-screen h-full">
+      <div className="relative container">
+        <div className="grid grid-cols-12 items-center lg:gap-0 gap-y-10">
+          <div className="lg:col-start-2 lg:col-end-7 col-span-12 lg:order-1 order-2">
+            <div className="max-lg:flex flex-col items-center justify-center max-lg:text-center text-white">
+              <h2 className="text-3xl">Hello There!</h2>
+              <h2 className=" text-4xl md:text-6xl  my-4">I am </h2>
               <div className="text-purple-600">
                 <TypeAnimation
                   sequence={[
@@ -26,9 +25,6 @@ const Banner = () => {
                     1000, // Waits 1s
                     "a Full-Stack Web Developer", // Deletes 'One' and types 'Two'
                     2000,
-                    () => {
-                      // console.log('Done typing!'); // Place optional callbacks anywhere in the array
-                    },
                   ]}
                   wrapper="div"
                   cursor={true}
@@ -36,9 +32,54 @@ const Banner = () => {
                   style={{ fontSize: "2.2rem" }}
                 />
               </div>
-              <div className="mt-16">
-                {/* <p className='mb-10'>Web Application Developer(MERN)</p> */}
-                {/* <Link  to='/portfolio'><button className='btn btn-secondary mr-5'>PORTFOLIO</button></a> */}
+
+              <div className="lg:absolute lg:left-0 lg:top-1/2 lg:-translate-y-1/2 max-lg:mt-4">
+                <div className="flex lg:flex-col max-lg:items-center max-lg:justify-center gap-2.5">
+                  <a
+                    href="https://github.com/1Md-Rakibul-Islam"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaGithub className="text-4xl text-purple-400 border border-purple-400 rounded-md p-1 hover:border-blue-600"></FaGithub>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/rakibulislam101"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaLinkedin className="text-4xl text-purple-400 border border-purple-400 rounded-md p-1 hover:border-blue-600"></FaLinkedin>
+                  </a>
+                  <a
+                    href="https://facebook.com/rakibulislam10101"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaFacebook className="text-4xl text-purple-400 border border-purple-400 rounded-md p-1 hover:border-blue-600"></FaFacebook>
+                  </a>
+                  <a
+                    href="https://twitter.com/MrRakib17184590"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaTwitter className="text-4xl text-purple-400 border border-purple-400 rounded-md p-1 hover:border-blue-600"></FaTwitter>
+                  </a>
+                </div>
+              </div>
+
+              <p className="text-base text-neutral-400 mt-5">
+                I am a passionate and dedicated Frontend Focused Full-Stack Web
+                Developer with over 2 years of professional experience. I have a
+                strong knowledge in JavaScript, TypeScript, React.js, Next.js,
+                Vue.js, Nuxt, Alpine and Node.js, MongoDB, Express.js. I
+                specialize in creating high-quality, scalable, and
+                cross-browser-compatible web applications. My experience aligns
+                with industry standards, including platforms such as ThemeForest
+                and CodeCanyon. Known for writing clean, reusable, and optimized
+                code, I excel at solving complex problems efficiently. I am a
+                quick learner and stay ahead of emerging trends and technologies
+                to contribute to impactful projects.
+              </p>
+              <div className="mt-8">
                 <a
                   href="https://drive.google.com/u/0/uc?id=1KBeOC-FdwRjgRpMK_MLS7cPeGZkY4Dys&export=download"
                   download
@@ -48,47 +89,16 @@ const Banner = () => {
                 </a>
               </div>
             </div>
-            <div className="">
-              <a
-                href="https://github.com/1Md-Rakibul-Islam"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaGithub className="text-4xl text-purple-400 mb-2 border border-purple-400 rounded-md p-1 hover:border-blue-600"></FaGithub>
-              </a>
-
-              <a
-                href="https://www.linkedin.com/in/1md-rakibul-islam"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaLinkedin className="text-4xl text-purple-400 mb-2 border border-purple-400 rounded-md p-1 hover:border-blue-600"></FaLinkedin>
-              </a>
-
-              <a
-                href="https://facebook.com/profaile.rakibul.islam"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaFacebook className="text-4xl text-purple-400 mb-2 border border-purple-400 rounded-md p-1 hover:border-blue-600"></FaFacebook>
-              </a>
-
-              <a
-                href="https://twitter.com/MrRakib17184590"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaTwitter className="text-4xl text-purple-400 mb-2 border border-purple-400 rounded-md p-1 hover:border-blue-600"></FaTwitter>
-              </a>
-            </div>
           </div>
-          <div className="w-[360px] h-[360px] md:w-full md:h-full overflow-hidden  flex items-center justify-evenly rounded-full">
-            <div className="border-b border-gray-200/30 bg-white/20 navmorphism backdrop-blur-xl p-3 md:p-5 rounded-full">
-              <img
-                className="w-[320px] h-[320px] md:w-[520px] md:h-[520px] rounded-full"
-                src={portfolioImg}
-                alt=""
-              />
+          <div className="lg:col-start-8 lg:col-end-13 col-span-12 order-1 lg:order-2">
+            <div className="max-lg:flex justify-center items-center">
+              <div className="xxl:size-[520px] md:size-[480px] sm:size-[360px] size-[300px] border-[20px] border-gray-200/30 rounded-full">
+                <img
+                  className="max-w-[unset] h-full objecvt-cover rounded-full"
+                  src={portfolioImg}
+                  alt=""
+                />
+              </div>
             </div>
           </div>
         </div>
