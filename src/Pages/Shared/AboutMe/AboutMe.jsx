@@ -3,8 +3,8 @@ import aboutImg from "../../../assets/about-img.png";
 
 const AboutMe = () => {
   return (
-    <section className="section-py mx-10">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+    <section className="section-py ">
+      <div className="container grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         <div className="bg-base-200 border-x-4 border-indigo-900 rounded-tl-full rounded-bl-full rounded-br-full m-auto overflow-hidden ">
           <img className="" src={aboutImg} alt="" />
         </div>

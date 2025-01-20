@@ -20,14 +20,14 @@ const Services = () => {
   // console.log(services);
 
   return (
-    <section className="section-py mx-10 md:mx-20">
-      <h2 className="text-4xl text-center mb-20 mx-auto text-purple-600">
-        Service
-      </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-20 gap-y-28">
-        {services?.map((service) => (
-          <Service key={service._id} service={service}></Service>
-        ))}
+    <section className="section-py bg-purple-700/[5%]">
+      <div className="container">
+        <h2 className="text-4xl text-center mb-24 text-purple-600">Service</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-20 gap-y-28">
+          {services?.map((service) => (
+            <Service key={service._id} service={service}></Service>
+          ))}
+        </div>
       </div>
     </section>
   );

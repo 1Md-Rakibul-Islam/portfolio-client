@@ -25,23 +25,18 @@ const Testimonial = () => {
   }
 
   return (
-    <section className="section-py bg-black">
-      <h2 className="text-center pt-10 text-4xl text-purple-700">
-        Testimonial
-      </h2>
-      <div className="md:mx-20 mx-5">
-        {
-          <Carousel
-            autoPlay={true}
-            infiniteLoop={true}
-            interval={2000}
-            //   selectedItem={selectImg}
-          >
-            {testimonials?.map((review) => (
-              <Review review={review} />
-            ))}
-          </Carousel>
-        }
+    <section className="section-py bg-purple-700/[5%]">
+      <div className="container">
+        <h2 className="text-center text-4xl text-purple-700">Testimonial</h2>
+        <div>
+          {
+            <Carousel autoPlay={true} infiniteLoop={true} interval={2000}>
+              {testimonials?.map((review) => (
+                <Review review={review} />
+              ))}
+            </Carousel>
+          }
+        </div>
       </div>
     </section>
   );

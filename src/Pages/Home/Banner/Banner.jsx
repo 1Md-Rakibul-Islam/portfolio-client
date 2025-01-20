@@ -67,17 +67,15 @@ const Banner = () => {
               </div>
 
               <p className="text-base text-neutral-400 mt-5">
-                I am a passionate and dedicated Frontend Focused Full-Stack Web
-                Developer with over 2 years of professional experience. I have a
-                strong knowledge in JavaScript, TypeScript, React.js, Next.js,
-                Vue.js, Nuxt, Alpine and Node.js, MongoDB, Express.js. I
-                specialize in creating high-quality, scalable, and
-                cross-browser-compatible web applications. My experience aligns
-                with industry standards, including platforms such as ThemeForest
-                and CodeCanyon. Known for writing clean, reusable, and optimized
-                code, I excel at solving complex problems efficiently. I am a
-                quick learner and stay ahead of emerging trends and technologies
-                to contribute to impactful projects.
+                I am a passionate and dedicated Web Developer with over 2 years
+                of professional experience. I specialize in creating
+                high-quality, scalable, and cross-browser-compatible web
+                applications. My experience aligns with industry standards,
+                including platforms such as ThemeForest and CodeCanyon. Known
+                for writing clean, reusable, and optimized code, I excel at
+                solving complex problems efficiently. I am a quick learner and
+                stay ahead of emerging trends and technologies to contribute to
+                impactful projects.
               </p>
               <div className="mt-8">
                 <a

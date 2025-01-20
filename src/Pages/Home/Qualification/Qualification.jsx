@@ -7,7 +7,7 @@ const Qualification = () => {
   const [index, setIndex] = useState(0);
 
   return (
-    <section className="section-py bg-[#0e0e1c]">
+    <section className="section-py bg-purple-700/[5%]">
       {/* Tab index */}
       <div className="md:mb-8 mb-5">
         <ul className="flex justify-center flex-wrap text-sm font-medium text-center border-gray-700 text-gray-400">

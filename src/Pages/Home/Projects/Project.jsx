@@ -77,7 +77,7 @@ const Project = ({ project }) => {
                 )}
               </>
             </div>
-            <div className="flex justify-center items-center mt-8">
+            {/* <div className="flex justify-center items-center mt-8">
               <Link to={`/project/details/${title}`}>
                 <a
                   className="text-white bg-gradient-to-r from-purple-600 to-blue-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-800 font-medium rounded-full text-xl px-5 py-2.5 text-center mr-2 mb-2"
@@ -87,7 +87,7 @@ const Project = ({ project }) => {
                   <span className="">Details</span>
                 </a>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
