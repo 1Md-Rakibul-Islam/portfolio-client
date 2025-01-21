@@ -23,15 +23,6 @@ const Qualification = () => {
           <li onClick={() => setIndex(1)} className="mr-2 hover:cursor-pointer">
             <button
               className={`inline-block p-4 hover:text-purple-700 rounded-t-lg ${
-                index === 1 && "bg-gray-800 text-purple-700"
-              } border-b`}
-            >
-              Skills
-            </button>
-          </li>
-          <li onClick={() => setIndex(2)} className="mr-2 hover:cursor-pointer">
-            <button
-              className={`inline-block p-4 hover:text-purple-700 rounded-t-lg ${
                 index === 2 && "bg-gray-800 text-purple-700"
               } border-b`}
             >
@@ -47,9 +38,6 @@ const Qualification = () => {
           <Experience />
         </div>
         <div hidden={index !== 1}>
-          <Skills />
-        </div>
-        <div hidden={index !== 2}>
           <Education />
         </div>
       </div>

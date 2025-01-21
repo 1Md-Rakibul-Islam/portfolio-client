@@ -13,8 +13,8 @@ const Home = () => {
   return (
     <div className="">
       <Banner />
+      <Skills />
       <Qualification />
-      {/* <Skills /> */}
       <AboutMe />
       <Services />
       <Projects />

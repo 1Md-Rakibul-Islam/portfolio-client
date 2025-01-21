@@ -25,17 +25,19 @@ const Blogs = () => {
   }
 
   return (
-    <section className="section-py min-h-screen md:mx-20 mx-5">
-      <h1 className="text-center mt-40 text-4xl">
-        {blogs?.length > 0 ? "" : "Comming Soon..."}
-      </h1>
-      <h2 className="text-3xl text-white mb-16 text-center font-bold">
-        Wellcome to my blogs page
-      </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-        {blogs?.map((blog) => (
-          <Blog key={blog._id} blog={blog}></Blog>
-        ))}
+    <section className="section-py min-h-screen">
+      <div className="container">
+        <h1 className="text-center text-4xl">
+          {blogs?.length > 0 ? "" : "Comming Soon..."}
+        </h1>
+        <h2 className="text-4xl text-center mb-10 mx-auto text-purple-600">
+          My Blogs
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+          {blogs?.map((blog) => (
+            <Blog key={blog._id} blog={blog}></Blog>
+          ))}
+        </div>
       </div>
     </section>
   );

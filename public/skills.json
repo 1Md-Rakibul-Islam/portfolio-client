@@ -1,63 +1,103 @@
 [
     {
-        "image": "https://i.ibb.co/QDQZSsb/html.png",
+        "image": "./icons/html.svg",
         "name": "HTML5",
         "experience": "3 years of Experience"
     },
     {
-        "image": "https://i.ibb.co/Jc7FtqV/css.png",
+        "image": "./icons/css.svg",
         "name": "CSS3",
         "experience": "3 years of Experience"
     },
     {
-        "image": "https://i.ibb.co/rQcNrB4/bootstrap.png",
+        "image": "./icons/scss.svg",
+        "name": "SCSS",
+        "experience": "3 years of Experience"
+    },
+    {
+        "image": "./icons/bootstrap.svg",
         "name": "Bootstrap5",
         "experience": "2 years of Experience"
     },
     {
-        "image": "https://i.ibb.co/hXCgw10/tailwind.png",
+        "image": "./icons/tailwind.svg",
         "name": "Tailwind CSS",
-        "experience": "1 years of Experience"
+        "experience": "2 years of Experience"
     },
     {
-        "image": "https://i.ibb.co/pKj5z6Y/javascript.png",
+        "image": "./icons/material-ui.svg",
+        "name": "Material UI",
+        "experience": "2 years of Experience"
+    },
+    {
+        "image": "./icons/javascript.svg",
         "name": "JavaScript",
+        "experience": "2 years of Experience"
+    },
+    {
+        "image": "./icons/typescript.svg",
+        "name": "TypeScript",
+        "experience": "2 years of Experience"
+    },
+    {
+        "image": "./icons/react.svg",
+        "name": "React.js",
+        "experience": "2 years of Experience"
+    },
+    {
+        "image": "./icons/next.js.webp",
+        "name": "Next.js",
+        "experience": "2 years of Experience"
+    },
+    {
+        "image": "./icons/vue.svg",
+        "name": "Vue.js",
         "experience": "1 years of Experience"
     },
     {
-        "image": "https://i.ibb.co/kJpSTh0/react.png",
-        "name": "React.js",
-        "experience": "6 months of Experience"
+        "image": "./icons/nuxt.svg",
+        "name": "Nuxt.js",
+        "experience": "1 years of Experience"
     },
     {
-        "image": "https://i.ibb.co/XjC32jT/node.webp",
+        "image": "./icons/alpinejs.svg",
+        "name": "Alpinejs",
+        "experience": "1 years of Experience"
+    },
+    {
+        "image": "./icons/nodejs.svg",
         "name": "Node.js",
-        "experience": "6 months of Experience"
+        "experience": "1 months of Experience"
     },
     {
-        "image": "https://i.ibb.co/njX8dCS/Express-JS.png",
+        "image": "./icons/expressjs.webp",
         "name": "Express.js",
         "experience": "6 months of Experience"
     },
     {
-        "image": "https://i.ibb.co/3YxpHfm/mongodb.webp",
+        "image": "./icons/mongodb.svg",
         "name": "MongoDB",
         "experience": "6 months of Experience"
     },
     {
-        "image": "https://i.ibb.co/WnDNmjK/github.png",
+        "image": "./icons/mongoose.png",
+        "name": "Mongoose",
+        "experience": "6 months of Experience"
+    },
+    {
+        "image": "./icons/github.svg",
         "name": "GitHub",
         "experience": "6 months of Experience"
     },
     {
-        "image": "https://i.ibb.co/44TQ78G/firebase.webp",
+        "image": "./icons/firebase.svg",
         "name": "Firebase",
         "experience": "6 months of Experience"
     },
     {
-        "image": "https://i.ibb.co/YRzJzgS/stripe.png",
-        "name": "Payment Gateway",
-        "experience": "4 months of Experience"
+        "image": "./icons/linux.svg",
+        "name": "Linux",
+        "experience": "6 months of Experience"
     }
 ]
 

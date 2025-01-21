@@ -13,9 +13,7 @@ const Skills = () => {
   } = useQuery({
     queryKey: ["skills"],
     queryFn: async () => {
-      const { data } = await axios.get(
-        "https://portfolio-rakibul-islam.vercel.app/skills"
-      );
+      const { data } = await axios.get("skills.json");
       return data;
     },
   });
@@ -30,17 +28,19 @@ const Skills = () => {
     );
   }
 
-  console.log(skills);
-
   return (
-    <div id="skills" className="mx-5 md:mx-20">
-      {/* <SkillsSlider></SkillsSlider> */}
-      <div className="grid bg-black rounded-md p-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-4 gap-8">
-        {skills?.map((skill) => (
-          <Skill key={skill._id} skill={skill}></Skill>
-        ))}
+    <section id="skills" className="section-py bg-black">
+      <div className="container">
+        <h2 className="text-5xl text-purple-600 mb-10 text-center">
+          My Skills
+        </h2>
+        <div className="grid rounded-md p-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-4 gap-8 ">
+          {skills?.map((skill) => (
+            <Skill key={skill._id} skill={skill}></Skill>
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 
