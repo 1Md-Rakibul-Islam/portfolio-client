@@ -1,30 +1,24 @@
 [
   {
-    "image": [
-      "./images/coinxHome.webp"
-    ],
+    "image": ["./images/coinxHome.webp"],
     "title": "Coinx",
     "subject": "A ThemeForest Approved Template for NFT, cryptocurrency, Web3, and blockchain industries.",
     "description": "Staking pool, token management, real-time IDO navigation, secure token swapping. Multi-functional features for buying, selling, and comparing cryptocurrencies. Seamless crypto purchasing with advanced charting, reward systems, and responsive design.",
     "technologies": "Next.js, TypeScript, Headlessui, Apexcharts, Tailwind CSS, Framer Motion, Swiper, SCSS, etc.",
-    "liveLink": "https://coinx-ruddy.vercel.app",
+    "liveLink": "https://themeforest.net/item/coinx-crypto-web3-website-react-next-js-tailwind-css-template/51078994",
     "publish": "N/A"
   },
   {
-    "image": [
-      "./images/boativusHome.webp"
-    ],
+    "image": ["./images/boativusHome.webp"],
     "title": "Boativus",
     "subject": "A Wrapbootstrap Approved Template for yacht rental and luxury sea tours.",
     "description": "Customizable booking system for managing yacht rentals, marine charters, and luxury sea tours. E-commerce integration for selling yachts, marine accessories, and tour bookings. Dynamic page variety, including multi-layout options for showcasing services, team, and customer interactions.",
     "technologies": "React.js, TypeScript, Headlessui, Tailwind CSS, SCSS, Framer Motion, Swiper, Day Picker, React Photo View, etc.",
-    "liveLink": "https://boativus1.vercel.app",
+    "liveLink": "https://wrapbootstrap.com/theme/boativus-luxury-yacht-boat-template-WB0M33318",
     "publish": "N/A"
   },
   {
-    "image": [
-      "./images/crypgoHome.webp"
-    ],
+    "image": ["./images/crypgoHome.webp"],
     "title": "CrypGo",
     "subject": "A ThemeForest Approved cryptocurrency review and comparison template.",
     "description": "Comprehensive comparison system for cryptocurrency exchanges, tokens, and blockchain projects. Market analysis tools, company additions, and address tracking. Interactive design tailored for fintech, blockchain, and crypto advisory platforms.",
@@ -54,24 +48,24 @@
       "https://i.ibb.co/MVQQ49Y/home-page-elearning.png"
     ],
     "title": "Xmiro",
-    "subject": "E-Learning is an online Education Next.js Web Template. It's a Template Monster approved Template",
-    "description": "Intuitive homepage showcasing featured courses, announcements, and upcoming events. Detailed information about the platform's mission, vision, and values. Browse and search through a diverse catalog of available courses. In-depth course descriptions, syllabus, and instructor details. Profiles of skilled instructors, showcasing their expertise and teaching style. Detailed information about individual instructors, including their qualifications and achievements. Frequently Asked Questions section to address common queries.",
-    "technologies": "Tailwind CSS, React, Next.js, Typescript, Context API, Swiper.js, Framer Motion, Email.js,",
-    "liveLink": "https://xmiro-all.vercel.app",
+    "subject": "Xmiro is an online Gamming React.js/Next.js Web Template. It's a ThemeForest approved Template",
+    "description": "Intuitive homepage with two layout options showcasing key content and navigation. A dedicated games section with detailed descriptions and visuals. Comprehensive About Us page highlighting mission, vision, and values. Careers section featuring job listings and detailed role descriptions. Blog section for updates and insights, with individual post pages. FAQs addressing common queries and legal pages for transparency. Contact page with forms and essential communication details.",
+    "technologies": "Tailwind CSS, React, Next.js, Typescript, Context API, Swiper.js, Framer Motion",
+    "liveLink": "https://themeforest.net/item/xmiro-gaming-studio-html-template/38503870",
     "publish": "03-11-2023"
   },
   {
-    "image": [
-      "./images/bloomXHome.webp",
-      "https://i.ibb.co/3SZV5ts/course-details-elearning.png",
-      "https://i.ibb.co/MVQQ49Y/home-page-elearning.png"
-    ],
     "title": "BloomX",
-    "subject": "E-Learning is an online Education Next.js Web Template. It's a Template Monster approved Template",
-    "description": "Intuitive homepage showcasing featured courses, announcements, and upcoming events. Detailed information about the platform's mission, vision, and values. Browse and search through a diverse catalog of available courses. In-depth course descriptions, syllabus, and instructor details. Profiles of skilled instructors, showcasing their expertise and teaching style. Detailed information about individual instructors, including their qualifications and achievements. Frequently Asked Questions section to address common queries.",
-    "technologies": "Tailwind CSS, Alpine.js, JavaScript, Swiper.js, Webpack, AOS, etc.",
-    "liveLink": "https://bloom-x1.vercel.app",
-    "publish": "03-11-2023"
+    "image": [
+      "./images/bloomxHome.webp",
+      "https://i.ibb.co/example1.png",
+      "https://i.ibb.co/example2.png"
+    ],
+    "subject": "BloomX is a beautifully crafted HTML and Alpine.js template designed for therapy, counseling, and mental health professionals.",
+    "description": "Featuring a calming and elegant design, BloomX is tailored for therapy and wellness services. It includes responsive layouts, interactive features like WOW animations and Odometer, and tools such as Flatpickr for seamless date selection. Designed for professionals, it offers a scalable and customizable experience using Tailwind CSS and Sass, ensuring a modern and inviting user interface.",
+    "technologies": "HTML, Tailwind CSS, Sass, Alpine.js, Webpack, WOW.js, Swiper, Odometer, Flatpickr",
+    "liveLink": "https://themeforest.net/item/bloomx-therapy-counseling-psychologist-html-template/55396894",
+    "publish": "01-23-2025"
   },
   {
     "image": [
@@ -83,35 +77,33 @@
     "subject": "E-Learning is an online Education Next.js Web Template. It's a Template Monster approved Template",
     "description": "Intuitive homepage showcasing featured courses, announcements, and upcoming events. Detailed information about the platform's mission, vision, and values. Browse and search through a diverse catalog of available courses. In-depth course descriptions, syllabus, and instructor details. Profiles of skilled instructors, showcasing their expertise and teaching style. Detailed information about individual instructors, including their qualifications and achievements. Frequently Asked Questions section to address common queries.",
     "technologies": "Tailwind CSS, React, Next.js, Typescript, Context API, Swiper.js React Countup, Framer Motion",
-    "liveLink": "https://elearning-orpin.vercel.app",
+    "liveLink": "https://www.templatemonster.com/website-templates/elearning-e-learning-education-lms-and-online-course-website-template-317635.html",
     "publish": "03-11-2023"
   },
   {
+    "title": "Itio",
     "image": [
       "./images/itioHome.webp",
-      "https://i.ibb.co/3SZV5ts/course-details-elearning.png",
-      "https://i.ibb.co/MVQQ49Y/home-page-elearning.png"
+      "https://i.ibb.co/example1.png",
+      "https://i.ibb.co/example2.png"
     ],
-    "title": "Itio",
-    "subject": "E-Learning is an online Education Next.js Web Template. It's a Template Monster approved Template",
-    "description": "Intuitive homepage showcasing featured courses, announcements, and upcoming events. Detailed information about the platform's mission, vision, and values. Browse and search through a diverse catalog of available courses. In-depth course descriptions, syllabus, and instructor details. Profiles of skilled instructors, showcasing their expertise and teaching style. Detailed information about individual instructors, including their qualifications and achievements. Frequently Asked Questions section to address common queries.",
-    "technologies": "Tailwind CSS, React, Next.js, Typescript, Context API, Swiper.js React Countup, Framer Motion",
-    "liveLink": "https://itio-eight.vercel.app",
-    "publish": "03-11-2023"
+    "subject": "Enhance your IT business with Itio, a cutting-edge React Tailwind CSS template designed for IT Solutions and Services.",
+    "description": "Itio is a modern and dynamic template designed specifically for IT solutions and services businesses. Built with React, Next.js, Tailwind CSS, and TypeScript, Itio ensures a responsive, seamless user experience. It includes well-crafted components and a clean design to elevate your online presence, making it ideal for IT professionals looking for a professional, easy-to-use platform.",
+    "technologies": "React, Next.js, Tailwind CSS, TypeScript, Context API, Swiper.js React Countup, Framer Motion",
+    "liveLink": "https://www.templatemonster.com/website-templates/itio-it-solutions-and-services-react-tailwind-css-template-433322.html",
+    "publish": "01-23-2025"
   },
   {
-    "image": [
-      "./images/easyFixHome.webp",
-      "https://i.ibb.co/3SZV5ts/course-details-elearning.png",
-      "https://i.ibb.co/MVQQ49Y/home-page-elearning.png"
-    ],
     "title": "EasyFix",
-    "subject": "E-Learning is an online Education Next.js Web Template. It's a Template Monster approved Template",
-    "description": "Intuitive homepage showcasing featured courses, announcements, and upcoming events. Detailed information about the platform's mission, vision, and values. Browse and search through a diverse catalog of available courses. In-depth course descriptions, syllabus, and instructor details. Profiles of skilled instructors, showcasing their expertise and teaching style. Detailed information about individual instructors, including their qualifications and achievements. Frequently Asked Questions section to address common queries.",
-    "technologies": "Tailwind CSS, React, Next.js, Typescript, Context API, Swiper.js React Countup, Framer Motion",
-    "liveLink": "https://easyfix-1.vercel.app",
-    "publish": "03-11-2023"
+    "image": [
+      "./images/easyfixHome.webp",
+      "https://i.ibb.co/example1.png",
+      "https://i.ibb.co/example2.png"
+    ],
+    "subject": "EasyFix is a meticulously crafted HTML5 template designed specifically for car repair and auto service businesses.",
+    "description": "EasyFix offers a seamless and responsive user experience for automotive service providers, leveraging modern web technologies. Built with HTML, Tailwind CSS, JavaScript, jQuery, Webpack, and Sass, this template ensures a visually appealing and highly functional website for car repair businesses. It provides essential features such as responsive design, customizable styling with Tailwind CSS, enhanced interactivity using JavaScript and jQuery, and optimized performance with Webpack.",
+    "technologies": "HTML, Tailwind CSS (v3.3.0), JavaScript, jQuery (v3.7.1), Webpack (v5.90.3), Sass (v1.58.1)",
+    "liveLink": "https://themeforest.net/item/easyfix-car-repair-auto-service-html5-template/52402168",
+    "publish": "01-23-2025"
   }
-
-
 ]

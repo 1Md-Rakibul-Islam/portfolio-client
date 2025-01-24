@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Dropdown from "../../../Components/Dropdown/Dropdown";
@@ -8,15 +8,26 @@ import useScrollPosition from "../../../Hooks/useScrollPosition";
 const NavBar = () => {
   // const { user, logOut } = useContext(AuthContext);
   const [menuOpen, setMenuOpen] = useState(false);
-  const [toggle, setToggle] = useState(false);
-  const handleLogOut = () => {
-    localStorage.removeItem("CodersStackBox");
-    logOut()
-      .then(() => {})
-      .catch((error) => console.log(error));
-  };
 
   const scrolled = useScrollPosition(50);
+
+  useEffect(() => {
+    // Function to handle outside click
+    function handleClickOutside(event) {
+      // Check if the click is outside the dropdown
+      if (menuOpen && !event.target.closest(".dropdown")) {
+        setMenuOpen(false);
+      }
+    }
+
+    // Attach event listener
+    document.addEventListener("mousedown", handleClickOutside);
+
+    // Cleanup event listener on unmount or dependency change
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [menuOpen]);
 
   const menuItems = (
     <React.Fragment>
@@ -58,17 +69,15 @@ const NavBar = () => {
             className={`list-none md:flex hidden justify-end items-center flex-1 text-white`}
           >
             {menuItems}
-            {/* {user?.uid ? ( */}
           </ul>
           <div className="">
             <button
               onClick={() => setMenuOpen((prev) => !prev)}
               type="button"
-              className="md:hidden block mr-5"
+              className="md:hidden block mr-5 "
             >
               <span className="sr-only">Open user menu</span>
-              {/* <img className="w-8 h-8 rounded-full" src="" alt="user photo" /> */}
-              <FaBars className="text-2xl hover:text-purple-700 mt-1.5" />
+              <FaBars className="text-2xl text-white hover:text-purple-700 mt-1.5" />
             </button>
             {menuOpen && <Dropdown menuItems={menuItems} />}
           </div>
