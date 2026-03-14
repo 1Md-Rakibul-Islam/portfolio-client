@@ -1,12 +1,5 @@
-import React from "react";
 import portfolioImg from "../../../assets/profile2.jpg";
-import {
-  FaFacebook,
-  FaLinkedin,
-  FaTwitter,
-  FaInstagram,
-  FaGithub,
-} from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 
 const Banner = () => {

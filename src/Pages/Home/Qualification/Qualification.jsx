@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Education from "../Home/Education/Education";
 import Experience from "../Home/Experience/Experience";
-import Skills from "../Skills/Skills";
 
 const Qualification = () => {
   const [index, setIndex] = useState(0);
@@ -23,7 +22,7 @@ const Qualification = () => {
           <li onClick={() => setIndex(1)} className="mr-2 hover:cursor-pointer">
             <button
               className={`inline-block p-4 hover:text-purple-700 rounded-t-lg ${
-                index === 2 && "bg-gray-800 text-purple-700"
+                index === 1 && "bg-gray-800 text-purple-700"
               } border-b`}
             >
               Education
@@ -33,14 +32,8 @@ const Qualification = () => {
       </div>
 
       {/* Tab Content */}
-      <div>
-        <div hidden={index !== 0}>
-          <Experience />
-        </div>
-        <div hidden={index !== 1}>
-          <Education />
-        </div>
-      </div>
+      {index === 0 && <Experience />}
+      {index === 1 && <Education />}
     </section>
   );
 };

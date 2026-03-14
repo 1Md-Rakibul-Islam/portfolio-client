@@ -1,0 +1,67 @@
+[
+  {
+    "company": "MakeHub",
+    "location": "Rajshahi",
+    "type": "On-Site",
+    "role": "Full-Stack Developer (Frontend Heavy)",
+    "duration": "April 2025 - Present (Full-Time)",
+    "description": [
+      "Architect and develop scalable Micro Frontend systems for SaaS platforms using React.js, Next.js, Vue.js, and TypeScript.",
+      "Designed reusable UI Design System components that improved development speed and consistency across applications.",
+      "Built complex business modules including Dealership Management Systems, Kanban workflow boards, Deal Views, and Finance management applications.",
+      "Implemented RESTful APIs, optimized data-fetching strategies, and state management using modern patterns.",
+      "Conducted frontend code reviews, testing, performance optimization, and sprint planning.",
+      "Collaborated with product managers, designers, and backend engineers within Agile teams to deliver production features."
+    ]
+  },
+  {
+    "company": "Anbar Software",
+    "location": "Dhaka, Bangladesh",
+    "type": "Remote",
+    "role": "Frontend Engineer",
+    "duration": "Mar 2025 - Apr 2025 (Contract)",
+    "description": [
+      "Led frontend development for a SaaS healthcare and e-commerce platform, architecting the entire frontend system, UI design system, and reusable component architecture.",
+      "Implemented advanced TypeScript patterns and a structured state management strategy to ensure predictable data flow, maintainability, and high-performance application behavior.",
+      "Designed and developed complex dashboards with interactive chart visualizations, delivering core business modules such as Shop, Cart, Orders, Sales, Doctors Management, Reports, and Agent systems.",
+      "Mentored junior developers by providing architectural guidance, code reviews, and structured development workflows, ensuring consistent engineering standards and timely feature delivery."
+    ]
+  },
+  {
+    "company": "Softivus",
+    "location": "Dhaka, Bangladesh",
+    "type": "On-Site",
+    "role": "Frontend Engineer",
+    "duration": "Sep 2023 - April 2025 (Full-Time)",
+    "description": [
+      "Developed responsive and accessible UIs using TypeScript, JavaScript, React, Next.js, Vue, Nuxt, and Alpine.js.",
+      "Integrated REST APIs with robust error handling and managed complex state using Redux, Zustand, and TanStack.",
+      "Optimized frontend performance using code-splitting, lazy loading, and caching strategies.",
+      "Built interactive animations using GSAP, Framer Motion, and AOS."
+    ]
+  },
+  {
+    "company": "Thrivers Wagmi",
+    "location": "Asansol, Gobindapur, India",
+    "type": "Remote",
+    "role": "Web Developer (MERN Stack)",
+    "duration": "Jun 2023 - Sep 2023 (Part-Time)",
+    "description": [
+      "Developed responsive frontend interfaces using React, Tailwind CSS, and Material UI.",
+      "Built backend APIs using Node.js, Express.js, MongoDB, and Mongoose.",
+      "Implemented reusable UI components and improved maintainability of the codebase."
+    ]
+  },
+  {
+    "company": "JahhahMate",
+    "location": "Dhaka, Bangladesh",
+    "type": "Remote",
+    "role": "Frontend Developer Intern",
+    "duration": "Jun 2023 - Aug 2023 (Full-Time)",
+    "description": [
+      "Converted Figma designs into responsive pixel-perfect UIs using React.js, Next.js, TypeScript, and Tailwind CSS.",
+      "Integrated REST APIs and implemented core frontend features for live products.",
+      "Collaborated with designers and backend developers to deliver high-quality UI implementations."
+    ]
+  }
+]
