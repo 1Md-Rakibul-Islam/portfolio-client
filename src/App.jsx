@@ -17,7 +17,7 @@ function App() {
   return (
     <main className="min-h-screen overflow-x-hidden">
       {isPreLoading ? (
-        <PreLoading></PreLoading>
+        <PreLoading />
       ) : (
         <>
           <RouterProvider router={router}></RouterProvider>

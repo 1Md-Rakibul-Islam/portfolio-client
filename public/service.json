@@ -1,39 +1,32 @@
 [
-    {
-        "_id": 0,
-        "icon": "https://i.ibb.co/FDtZcpB/frontend.png",
-        "title": "Front-End Development",
-        "experience": "I can easily develop your Front-End Web Applactions into code within few time.I will use HTML, CSS, Tailwind CSS, Bootstrap, Material-UI, JavaScript and React.js to Design Your Website."
-    },
-    {
-        "_id": 1,
-        "icon": "https://i.ibb.co/XDvMG48/web-development.png",
-        "title": "Back-End Development",
-        "experience": "I will build your Back-End Server. I will use Node.js, Express.js, Python, MongoDB and mongoose for your Website backend."
-    },
-    {
-        "_id": 3,
-        "icon": "https://i.ibb.co/WWst1fg/code.png",
-        "title": "Clean Code",
-        "experience": "I can code your website in neat and clean that any developer can understand that. Clean code is efficient, maintainable, and easy to read. It uses meaningful titles, avoids duplication, and has clear comments and documentation. Following best practices for clean code can reduce errors and improve performance."
-    },
-    {
-        "_id": 4,
-        "icon": "https://i.ibb.co/NNV2NjL/team-warking.png",
-        "title": "Team Warking",
-        "experience": "My team working involves effective communication, collaboration, and mutual respect. I encourage creativity and innovation while maintaining a positive and inclusive work environment. I prioritize team goals and support individual development. By working together, we achieve success and continuously improve our performance."
-    },
-    {
-        "_id": 5,
-        "icon": "https://i.ibb.co/bXg40Bb/website-proplem-soulation.png",
-        "title": "Bugs and Problems Solutions",
-        "experience": "I provide comprehensive solutions for various website problems, including design, functionality, and technical issues. I use a customer-focused approach to identify and solve problems efficiently. My services include website maintenance, optimization, and security. I aim to ensure website performance and user satisfaction."
-    },
-    {
-        "_id": 6,
-        "icon": "https://i.ibb.co/ZdgRHkk/support.png",
-        "title": "Great Support",
-        "experience": "My great support of clients includes timely responses, active listening, empathy, and problem-solving skills. I prioritize customer satisfaction by understanding their needs and providing efficient solutions. I strive to create a positive and professional relationship with my clients and ensure their success."
-    }
+  {
+    "id": "1",
+    "title": "SaaS Application Development",
+    "description": "Design and develop scalable SaaS platforms with modern frontend architecture and robust backend systems. I build complex business applications including dashboards, management systems, and real-time data interfaces using React, Next.js, TypeScript, Node.js, and MongoDB."
+  },
+  {
+    "id": "2",
+    "title": "Modern Frontend Development",
+    "description": "Build high-performance, responsive, and accessible web interfaces using modern frontend technologies like React.js, Next.js, Vue.js, Nuxt.js, and TypeScript. I focus on clean component architecture and reusable UI systems."
+  },
+  {
+    "id": "3",
+    "title": "Full-Stack Web Application Development",
+    "description": "Develop complete web applications from frontend to backend using the MERN stack. I design REST APIs, integrate databases, and build scalable application architectures using Node.js, Express.js, MongoDB, and modern frontend frameworks."
+  },
+  {
+    "id": "4",
+    "title": "Dashboard & Admin Panel Development",
+    "description": "Create powerful dashboards and admin panels with complex data visualization, charts, and analytics. I develop interactive business systems including reporting dashboards, management platforms, and workflow tools."
+  },
+  {
+    "id": "7",
+    "title": "Micro-Frontend Architecture",
+    "description": "Design and implement micro-frontend architectures that allow large applications to scale with independent modules and teams. This improves maintainability, deployment flexibility, and development speed."
+  },
+  {
+    "id": "8",
+    "title": "API Development & Integration",
+    "description": "Develop and integrate RESTful APIs for modern web applications. I build secure backend services and connect frontend applications with third-party APIs and internal systems."
+  }
 ]
-
