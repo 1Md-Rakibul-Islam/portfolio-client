@@ -1,0 +1,37 @@
+[
+  {
+    "degree": "BSc in Engineering, Computer Science and Engineering",
+    "institution": "Uttara University",
+    "duration": "Jul 2023 - Jun 2026",
+    "description": [
+      "Pursuing a Bachelor's Degree in CSE while leveraging 3+ years of hands-on industry experience to strengthen expertise in Software Engineering, Data Structures, Algorithms, System Design, and Database Systems.",
+      "Integrating academic foundations with real-world development experience in building scalable SaaS applications, microservice architectures, and high-performance web platforms.",
+      "Deepening knowledge of modern Web Technologies, Backend Architecture, RESTful APIs, and distributed system design with strong focus on maintainability, performance optimization, and clean architecture.",
+      "Expanding technical vision by exploring advanced domains such as Artificial Intelligence and Data Science while improving research capability and analytical thinking."
+    ]
+  },
+  {
+    "degree": "Diploma in Engineering, Computer Science and Engineering",
+    "institution": "Shariatpur Polytechnic Institute",
+    "duration": "2018 - 2022",
+    "grade": "CGPA 3.65 out of 4.00",
+    "description": [
+      "Built a strong foundation in Programming, Database Management Systems, Networking, and Computer Hardware.",
+      "Developed academic and practical projects using Python, Java, C#, JavaScript, and Web Technologies.",
+      "Gained in-depth understanding of Software Development Lifecycle (SDLC), Object-Oriented Programming (OOP), and system-level problem-solving methodologies.",
+      "Established core analytical thinking, logical reasoning, and collaborative teamwork skills that later supported professional Full-Stack development work."
+    ]
+  },
+  {
+    "degree": "SSC, Science",
+    "institution": "Jonail M.L High School",
+    "duration": "2013 - 2018",
+    "grade": "Grade A",
+    "description": [
+      "Built foundational knowledge in Mathematics, Physics, Chemistry, and Higher Mathematics.",
+      "Developed early analytical thinking and structured problem-solving skills.",
+      "Actively engaged in team projects and school activities, strengthening discipline and communication skills.",
+      "Developed an early interest in technology and computer science which later influenced engineering studies."
+    ]
+  }
+]

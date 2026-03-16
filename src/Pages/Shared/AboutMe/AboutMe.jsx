@@ -1,4 +1,3 @@
-import React from "react";
 import aboutImg from "../../../assets/about-img.png";
 
 const AboutMe = () => {
@@ -6,20 +5,31 @@ const AboutMe = () => {
     <section className="section-py ">
       <div className="container grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         <div className="bg-base-200 border-x-4 border-indigo-900 rounded-tl-full rounded-bl-full rounded-br-full m-auto overflow-hidden ">
-          <img className="" src={aboutImg} alt="" />
+          <img src={aboutImg} alt="Rakibul Islam" />
         </div>
 
-        <div className="">
+        <div>
           <h2 className="text-5xl text-purple-600 mt-10 mb-3">About Me</h2>
           <p className="text-lg text-white">
-            I'm a web developer with a focus on the MERN stack, but still
-            exploring other technologies and frameworks that catch my interest!
-            I love building front end applications. I believe that if you do
-            something with your love and passion, the chances of success are
-            much higher. if you're looking for a developer to add to your team,
-            I'd love to hear from you! <br /> <br />
-            When I'm not coding, I'm likely at the gym or surfing the city with
-            my longboard You can find me on GitHub, Twitter and LinkedIn.
+            I'm Rakibul Islam, a frontend-focused Full-Stack Software Engineer
+            with over 3 years of experience building scalable SaaS platforms,
+            business dashboards, and modern web applications.
+            <br /> <br />
+            My primary expertise is in frontend engineering, where I design and
+            develop high-performance user interfaces using React.js, Next.js,
+            Vue.js, Nuxt.js, and TypeScript. I focus on building scalable
+            frontend architectures, reusable component systems, and maintainable
+            UI design systems that improve development efficiency and
+            application performance.
+            <br /> <br />
+            On the backend, I work with Node.js, Express.js, and MongoDB to
+            build secure APIs and scalable services that support complex product
+            workflows.
+            <br /> <br />
+            Throughout my career, I have worked on SaaS products, marketplace
+            platforms, and ThemeForest / CodeCanyon templates, developing
+            features such as interactive dashboards, role-based systems, data
+            visualization modules, and large-scale business applications.
           </p>
           <a
             href="mailto:rakibul.islam.dev.info@gmail.com"
