@@ -34,7 +34,7 @@ const Education = () => {
               <p className="text-sm text-gray-400 mt-1">{edu.grade}</p>
             )}
 
-            <ul className="mt-5 space-y-2 list-disc list-inside text-gray-300">
+            <ul className="mt-4 space-y-1 list-disc list-outside ml-4 text-gray-300">
               {edu.description.map((item, i) => (
                 <li key={i}>{item}</li>
               ))}

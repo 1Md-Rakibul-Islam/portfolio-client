@@ -54,14 +54,14 @@ const NavBar = () => {
     <nav className="relative mb-20 w-full mx-auto flex justify-center">
       <div
         className={`
-      fixed top-3 md:w-[800px] w-full ${
+      fixed md:top-3 md:w-[800px] w-full ${
         scrolled
-          ? "md:border-b md:border-gray-200/30 md:bg-white/20 navmorphism md:backdrop-blur-xl md:px-10 rounded-full"
+          ? "border-b border-gray-200/30 bg-white/20 navmorphism backdrop-blur-xl md:rounded-full"
           : "bg-white/0"
-      } z-30 transition-all mx-auto`}
+      } px-10 z-30 mx-auto`}
       >
-        <div className="flex justify-end md:justify-between py-4 ">
-          <div className="hidden md:flex items-center gap-4 text-xl text-purple-400">
+        <div className="flex justify-between py-4 ">
+          <div className="flex items-center gap-4 text-xl text-purple-400">
             <Logo />
           </div>
 

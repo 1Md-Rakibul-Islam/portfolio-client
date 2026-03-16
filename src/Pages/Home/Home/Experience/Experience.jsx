@@ -32,7 +32,7 @@ const Experience = () => {
               {exp?.duration}
             </time>
 
-            <ul className="mt-5 space-y-1 list-disc list-inside text-gray-300">
+            <ul className="mt-4 space-y-1 list-disc list-outside ml-4 text-gray-300">
               {exp?.description.map((item, i) => (
                 <li key={i}>{item}</li>
               ))}

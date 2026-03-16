@@ -12,8 +12,6 @@ const socials = [
 
 // TypeAnimation texts
 const typeTexts = [
-  "Rakibul Islam",
-  1200,
   "Full-Stack Web Developer",
   2000,
   "Frontend Engineer",
@@ -37,15 +35,18 @@ const Banner = () => {
           {/* Text Section */}
           <div className="lg:col-start-2 lg:col-end-7 col-span-12 lg:order-1 order-2">
             <div className="max-lg:flex flex-col items-center justify-center max-lg:text-center text-white">
-              <h2 className="text-3xl">Hello There!</h2>
-              <h2 className="text-4xl md:text-6xl my-4">I am</h2>
+              <p className="text-lg text-purple-400 mb-3">Hello, I'm</p>
+              <h1 className="text-4xl md:text-6xl font-bold mb-4">
+                Rakibul Islam
+              </h1>
 
-              <div className="text-purple-600 text-2xl md:text-4xl font-bold">
+              <div className="text-2xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-500 mb-6">
                 <TypeAnimation
                   sequence={typeTexts}
                   wrapper="div"
                   cursor={true}
                   repeat={Infinity}
+                  style={{ fontSize: "2.2rem" }}
                 />
               </div>
 
