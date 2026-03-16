@@ -36,7 +36,7 @@ const Banner = () => {
                     <FaGithub className="text-4xl text-purple-400 border border-purple-400 rounded-md p-1 hover:border-blue-600"></FaGithub>
                   </a>
                   <a
-                    href="https://www.linkedin.com/in/rakibulislam101"
+                    href="https://www.linkedin.com/in/rakibul-islam-dev"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -50,7 +50,7 @@ const Banner = () => {
                     <FaFacebook className="text-4xl text-purple-400 border border-purple-400 rounded-md p-1 hover:border-blue-600"></FaFacebook>
                   </a>
                   <a
-                    href="https://twitter.com/MrRakib17184590"
+                    href="https://x.com/MrRakib17184590"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
