@@ -19,7 +19,7 @@ const ContactUs = () => {
         import.meta.env.VITE_SERVICE_ID,
         import.meta.env.VITE_Template_ID,
         form.current,
-        import.meta.env.VITE_PUBLIC_KEY
+        import.meta.env.VITE_PUBLIC_KEY,
       )
       .then(
         (result) => {
@@ -29,12 +29,12 @@ const ContactUs = () => {
         },
         (error) => {
           console.log(error.text);
-        }
+        },
       );
   };
 
   return (
-    <section className="section-py">
+    <section className="section-py overflow-x-hidden">
       <div className="container">
         <h1 className="text-4xl text-center font-bold my-10 text-purple-600">
           GET IN TOUCH

@@ -1,9 +1,8 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 const ErrorPage = () => {
   return (
-    <section className="section-py flex items-center h-full text-gray-100">
+    <section className="section-py overflow-x-hidden flex items-center h-full text-gray-100">
       <div className="container flex flex-col items-center justify-center px-5 mx-auto my-8">
         <div className="max-w-md text-center">
           <h2 className="mb-8 font-extrabold text-9xl text-gray-600">

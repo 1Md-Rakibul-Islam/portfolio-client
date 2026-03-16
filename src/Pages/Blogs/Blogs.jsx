@@ -13,7 +13,7 @@ const Blogs = () => {
     queryKey: ["blogs"],
     queryFn: async () => {
       const { data } = await axios.get(
-        "https://portfolio-rakibul-islam.vercel.app/blogs"
+        "https://portfolio-rakibul-islam.vercel.app/blogs",
       );
       //   const { data } = await axios.get("https://portfolio-1md-rakibul-islam.vercel.app/blogs"); //not creted the collection
       return data;
@@ -25,7 +25,7 @@ const Blogs = () => {
   }
 
   return (
-    <section className="section-py min-h-screen">
+    <section className="section-py overflow-x-hidden min-h-screen">
       <div className="container">
         <h1 className="text-center text-4xl">
           {blogs?.length > 0 ? "" : "Comming Soon..."}

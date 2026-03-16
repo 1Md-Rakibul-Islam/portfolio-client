@@ -20,7 +20,7 @@ const Services = () => {
   // console.log(services);
 
   return (
-    <section className="section-py bg-purple-700/[5%]">
+    <section className="section-py overflow-x-hidden bg-purple-700/[5%]">
       <div className="container">
         <h2 className="text-4xl text-center mb-24 text-purple-600">Service</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-20 gap-y-28">

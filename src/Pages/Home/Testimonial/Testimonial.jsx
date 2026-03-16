@@ -1,6 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
-import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import PreLoading from "../../../Components/Loadings/PreLoading/PreLoading";
 import Review from "./Review";
@@ -14,7 +13,7 @@ const Testimonial = () => {
     queryKey: ["testimonials"],
     queryFn: async () => {
       const { data } = await axios.get(
-        "https://portfolio-rakibul-islam.vercel.app/testimonials"
+        "https://portfolio-rakibul-islam.vercel.app/testimonials",
       );
       return data;
     },
@@ -25,7 +24,7 @@ const Testimonial = () => {
   }
 
   return (
-    <section className="section-py bg-purple-700/[5%]">
+    <section className="section-py overflow-x-hidden bg-purple-700/[5%]">
       <div className="container">
         <h2 className="text-center text-4xl text-purple-700">Testimonial</h2>
         <div>

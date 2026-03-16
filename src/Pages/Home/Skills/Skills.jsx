@@ -29,7 +29,7 @@ const Skills = () => {
   }
 
   return (
-    <section id="skills" className="section-py bg-black">
+    <section id="skills" className="section-py overflow-x-hidden bg-black">
       <div className="container">
         <h2 className="text-5xl text-purple-600 mb-10 text-center">
           My Skills

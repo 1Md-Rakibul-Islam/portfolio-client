@@ -23,7 +23,7 @@ const Qualification = () => {
   const ActiveComponent = activeTab?.component;
 
   return (
-    <section className="section-py bg-purple-700/[5%]">
+    <section className="section-py overflow-x-hidden bg-purple-700/[5%]">
       {/* Tabs */}
       <div className="md:mb-8 mb-5">
         <ul className="flex justify-center flex-wrap text-sm font-medium text-center text-gray-400">

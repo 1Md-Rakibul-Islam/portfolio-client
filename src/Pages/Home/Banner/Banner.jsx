@@ -29,7 +29,7 @@ const Banner = () => {
     "https://drive.google.com/u/0/uc?id=1KBeOC-FdwRjgRpMK_MLS7cPeGZkY4Dys&export=download";
 
   return (
-    <section className="section-py overflow-hidden min-h-screen h-full">
+    <section className="section-py overflow-x-hidden min-h-screen h-full">
       <div className="relative container">
         <div className="grid grid-cols-12 items-center lg:gap-0 gap-y-10">
           {/* Text Section */}

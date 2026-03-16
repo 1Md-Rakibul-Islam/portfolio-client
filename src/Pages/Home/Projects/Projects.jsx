@@ -22,7 +22,7 @@ const Projects = () => {
   }
 
   return (
-    <section className="section-py">
+    <section className="section-py overflow-x-hidden">
       <div className="container">
         <h2 className="text-4xl text-center mb-10 mx-auto text-purple-600">
           Portfolio
