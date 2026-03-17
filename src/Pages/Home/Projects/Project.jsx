@@ -1,21 +1,8 @@
-import React from "react";
-import { Link } from "react-router-dom";
 import { FaEye, FaGithub } from "react-icons/fa";
 
 const Project = ({ project }) => {
-  const {
-    _id,
-    image,
-    title,
-    subject,
-    description,
-    technologies,
-    gitHubClient,
-    gitHubServer,
-    liveLink,
-  } = project;
-
-  // console.log(image);
+  const { image, title, technologies, gitHubClient, gitHubServer, liveLink } =
+    project;
 
   return (
     <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
