@@ -14,7 +14,7 @@
     "subject": "My Role Frontend only. A yacht rental and marketplace web application (Laravel full version).",
     "description": "Boativus is a scalable yacht rental and sales platform with role-based dashboards for Buyer, Seller, and Admin. It includes yacht listings, booking systems, and service/product showcase modules. Designed to support a complete marketplace ecosystem with a strong focus on user roles and backend-driven functionality.",
     "technologies": "Laravel Blade, TypeScript, Tailwind CSS, SCSS, Swiper",
-    "liveLink": "Laravel Live",
+    "liveLink": "https://codecanyon.net/item/boativus-multivendor-boatyacht-booking-platform/58224658",
     "sourceCode": "Private",
     "publish": "Wrapbootstrap & Codecanyon Approved"
   },
@@ -70,7 +70,7 @@
     "subject": "An eSports and gaming website template (ThemeForest approved, two versions).",
     "description": "GameCo is a modern eSports platform built with Next.js and Alpine.js, featuring tournaments, team profiles, player dashboards, leaderboards, and community-driven features like blogs, gamer profiles, marketplace, and event pages. Designed with scalable and reusable architecture for gaming ecosystems.",
     "technologies": "Next.js, Alpine.js, TypeScript, Tailwind CSS, SCSS, Swiper, GSAP, AOS",
-    "liveLink": "Next.js Live | Alpine.js Live",
+    "liveLink": "https://themeforest.net/item/gameco-esports-and-gaming-react-next-js-template/57678143",
     "sourceCode": "Private",
     "publish": "ThemeForest Approved"
   },
