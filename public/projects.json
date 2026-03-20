@@ -9,8 +9,18 @@
     "publish": "N/A"
   },
   {
+    "image": ["./images/boativusLaravelHome.webp"],
+    "title": "Boativus - (Laravel)",
+    "subject": "My Role Frontend only. A yacht rental and marketplace web application (Laravel full version).",
+    "description": "Boativus is a scalable yacht rental and sales platform with role-based dashboards for Buyer, Seller, and Admin. It includes yacht listings, booking systems, and service/product showcase modules. Designed to support a complete marketplace ecosystem with a strong focus on user roles and backend-driven functionality.",
+    "technologies": "Laravel Blade, TypeScript, Tailwind CSS, SCSS, Swiper",
+    "liveLink": "Laravel Live",
+    "sourceCode": "Private",
+    "publish": "Wrapbootstrap & Codecanyon Approved"
+  },
+  {
     "image": ["./images/boativusHome.webp"],
-    "title": "Boativus",
+    "title": "Boativus - (Next.js)",
     "subject": "A Wrapbootstrap Approved Template for yacht rental and luxury sea tours.",
     "description": "Customizable booking system for managing yacht rentals, marine charters, and luxury sea tours. E-commerce integration for selling yachts, marine accessories, and tour bookings. Dynamic page variety, including multi-layout options for showcasing services, team, and customer interactions.",
     "technologies": "React.js, TypeScript, Headlessui, Tailwind CSS, SCSS, Framer Motion, Swiper, Day Picker, React Photo View, etc.",
@@ -53,6 +63,16 @@
     "technologies": "Tailwind CSS, React, Next.js, Typescript, Context API, Swiper.js, Framer Motion",
     "liveLink": "https://themeforest.net/item/xmiro-gaming-studio-html-template/38503870",
     "publish": "03-11-2023"
+  },
+  {
+    "image": ["./images/gameCoHome.webp"],
+    "title": "GameCo",
+    "subject": "An eSports and gaming website template (ThemeForest approved, two versions).",
+    "description": "GameCo is a modern eSports platform built with Next.js and Alpine.js, featuring tournaments, team profiles, player dashboards, leaderboards, and community-driven features like blogs, gamer profiles, marketplace, and event pages. Designed with scalable and reusable architecture for gaming ecosystems.",
+    "technologies": "Next.js, Alpine.js, TypeScript, Tailwind CSS, SCSS, Swiper, GSAP, AOS",
+    "liveLink": "Next.js Live | Alpine.js Live",
+    "sourceCode": "Private",
+    "publish": "ThemeForest Approved"
   },
   {
     "title": "BloomX",
