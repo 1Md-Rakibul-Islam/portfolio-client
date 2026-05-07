@@ -33,7 +33,7 @@
     "subject": "A ThemeForest Approved cryptocurrency review and comparison template.",
     "description": "Comprehensive comparison system for cryptocurrency exchanges, tokens, and blockchain projects. Market analysis tools, company additions, and address tracking. Interactive design tailored for fintech, blockchain, and crypto advisory platforms.",
     "technologies": "Vue.js, Nuxt.js, TypeScript, Tailwind CSS, SCSS, Swiper, GSAP, AOS, etc.",
-    "liveLink": "https://cryptogo-html.vercel.app",
+    "liveLink": "https://crypgo-nuxt.vercel.app",
     "publish": "N/A"
   },
   {
@@ -99,6 +99,20 @@
     "technologies": "Tailwind CSS, React, Next.js, Typescript, Context API, Swiper.js React Countup, Framer Motion",
     "liveLink": "https://www.templatemonster.com/website-templates/elearning-e-learning-education-lms-and-online-course-website-template-317635.html",
     "publish": "03-11-2023"
+  },
+  {
+    "image": [
+      "./images/petivaHome.webp",
+      "./images/petivaHome2.webp",
+      "./images/petivaHome3.webp"
+    ],
+    "title": "Petiva",
+    "subject": "A ThemeForest-approved pet care and pet shop template designed for veterinary clinics, pet grooming, pet adoption, and online pet stores.",
+    "description": "My responsibility was frontend development, including responsive UI implementation, modern design systems, JavaScript functionality, interactive components, and advanced animations. Built multiple pages such as pet care services, appointment booking, pet shop, blogs, pricing, testimonials, and event sections with reusable and scalable frontend architecture. The WordPress integration and backend functionalities were handled by another developer.",
+    "technologies": "HTML5, JavaScript, TypeScript, Tailwind CSS, SCSS/SASS, GSAP, Swiper.js, Bootstrap 5, Webpack, Glightbox, Lenis, Splitting.js, Vanilla Tilt, Odometer",
+    "liveLink": "https://themeforest.net/item/petpath-pet-care-and-pet-shop-html-template/54514808",
+    "sourceCode": "Private",
+    "publish": "ThemeForest Approved"
   },
   {
     "title": "Itio",
